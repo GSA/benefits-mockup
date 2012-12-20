@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta content="text/html; charset=utf8" http-equiv="Content-Type">
+<title>Benefits.gov - Benefit Finder</title>
+
+<link type="image/x-icon" href="/static-dev/benefits/en/images/benefits.ico" rel="shortcut icon">
+<link href="/static-dev/benefits/en/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+<link type="text/css" href="/assets/css.css" rel="stylesheet">
+
+<link media="print" type="text/css" href="/static-dev/benefits/en/css/print.css" rel="stylesheet">
+<!--[if IE 7]><link rel="stylesheet" href="/static-dev/benefits/en/css/ie7.css" type="text/css" /><![endif]-->
+
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="/static-dev/common/js/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/benefits-1.0.js" type="text/javascript"></script>
+
+<meta content="EgJ6rkU0KZuXB19VI_x8s-K4_ler9CVs4hi0PQwx5ic" name="google-site-verification">
+<meta content="9D8362E06B89356F791992F1447E4E87" name="msvalidate.01">
+<meta content="Benefits.gov is a partnership of many Federal agencies and organizations with a shared vision - to provide improved, personalized access to government benefit programs." name="description">
+<style type="text/css">.benefits-logo {height:80px; position:relative; top:-999px; left:-999px; visibility:hidden; } </style>
+
+<script type="text/javascript" src="/assets/jquery-ui.js"></script>
+<script type="text/javascript" src="/assets/jquery.questionnaire-1.0.js"></script>
+<link type="text/css" href="/assets/questionnaire.css" rel="stylesheet">
+
+<script src="/analytics.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://search.usa.gov/javascripts/stats.js"></script></head>
+
+<script type="text/javascript">
+function loadUrl(newLocation)
+{
+  window.location.href = newLocation;
+}
+</script>
+
+<body style="overflow: auto;">
+
+<a class="skip-to-content" href="#skip-to-content">Skip to Content</a>
+
+<div class="site-border">
+
+	<div class="main-nav">
+		<ul id="language">
+			<li><a href="/">Home</a></li>
+			<li id="last-child"><a class="languageSwitch" href="http://es.benefits.gov/benefits/benefit-finder/#benefits&amp;qc=cat_1">En Español</a></li>
+		</ul>
+		
+		<ul class="nav-menu sf-js-enabled sf-shadow">
+			<?php if(empty($user['email'])) { ?>
+			<li id="last-child"><a href="/login" id="last-child" class="login_button">MyGov Login</a></li>
+			<?php } else { ?>
+				
+				<li id="last-child"><a href="#"><?php echo $user['first_name'] . ' ' . $user['last_name']; ?></a></li>
+				<li id="last-child"><a href="/logout" id="last-child" class="login_button">Log Out</a></li>
+				
+			<?php }?>
+		</ul>		
+		
+		<ul class="nav-menu sf-js-enabled sf-shadow">
+			<li id="last-child"><a href="http://addthis.com/bookmark.php?v=250&amp;username=xa-4bb60b8d5a4d2e30" id="last-child" class="addthis_button" target="_blank"><img title="Bookmark and Share" alt="Bookmark and Share" src="/assets/addThis.gif"></a></li>
+		</ul>
+				
+
+		 
+	<ul class="nav-menu sf-js-enabled sf-shadow">
+		<li class="current"><a class="navId51 sf-with-ul" href="/benefits">Benefits<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId51" href="/benefits/benefit-finder">Benefit Finder</a></li>
+			<li><a class="navId51" href="/benefits/browse-by-state">By State</a></li>
+			<li><a class="navId51" href="/benefits/browse-by-category">By Category</a></li>
+			<li><a class="navId51" href="/benefits/browse-by-federal-agency">By Federal Agency</a></li>
+			<li><a class="navId51" href="/benefits/other-resources">Other Resources</a></li></ul></li>
+		<li><a class="navId66 sf-with-ul" href="/news">Newsroom<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId66" href="/news/news-articles">News Articles</a></li>
+			<li><a class="navId66" href="/news/newsletter">eNewsletter</a></li>
+			<li><a class="navId66" href="/news/press-releases">Press Releases</a></li></ul></li>
+		<li><a class="navId74 sf-with-ul" href="/advocates">Advocates<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId74" href="/advocates/community-advocates">Community Advocates</a></li>
+			<li><a class="navId74" href="/advocates/partners">Partners</a></li></ul></li>
+		<li><a class="navId64 sf-with-ul" href="/about-us">About<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId64" href="/about-us/overview">Overview</a></li>
+			<li><a class="navId64" href="/about-us/link-to-us">Link to Us</a></li></ul></li>
+		<li><a class="navId79 sf-with-ul" href="/help">Help<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId79" href="/help/faqs">FAQs</a></li>
+			<li><a class="navId79" href="/email/contact-us">Contact Us</a></li></ul></li>
+	</ul>
+	</div>
+    
+    <div class="header">
+		<span class="benefits-logo">
+			<a href="/"><img title="Benefits.gov - Your Path to Government Benefits" alt="Benefits.gov - Your Path to Government Benefits" src="/assets/benefits-logo.jpg" class="benefits-logo-img"></a>
+		</span>
+		<span class="site-search">
+
+        	  <form onsubmit="_gaq.push(['_linkByPost', this]);" name="search" method="get" id="search_form" action="http://search.usa.gov/search" accept-charset="UTF-8"><div style="margin:0;padding:0;display:inline"><input type="hidden" value="?" name="utf8"></div>
+            <input type="hidden" value="govbenefits" name="affiliate" id="affiliate">
+        	<span class="magnifying-glass"><img title="This image depicts a magnifying glass for searching" alt="This image depicts a magnifying glass for searching" src="/assets/magnifying-glass.gif" class="magnifying-glass-img"></span>
+			<span class="search">
+				<input type="text" autocomplete="off" name="query" alt="Search" title="Search" id="query" class="usagov-search-autocomplete search-input ac_input">
+			</span>
+
+            <span class="search-submit">
+            	<a href="javascript: document.search.submit();" class="button"><span>Search</span></a>
+			</span>
+<div class="advanced-search"><a onclick="_gaq.push(['_link', 'http://search.usa.gov/search/advanced?affiliate=govbenefits&amp;locale=en&amp;m=false&amp;filter=moderate&amp;page=1&amp;per_page=10&amp;query=']); return false;" href="http://search.usa.gov/search/advanced?affiliate=govbenefits&amp;locale=en&amp;m=false&amp;filter=moderate&amp;page=1&amp;per_page=10&amp;query=">Advanced Search</a></div>
+
+            </form>  
+		</span>
+	</div>
+
+    <div class="breadcrumb-border">
+    	<div class="breadcrumbs">
+    		<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/benefits">Benefits</a></li>
+<li id="last-crumb">Benefit Finder</li>
+</ul>
+
+     	</div>
+     </div>
+     
+     <a href="#" id="skip-to-content" name="skip-to-content"></a>
+
+     <div id="questionnaire" style="margin: 50px auto 0px; width: 100%; float: left; padding: 0px 15px;"><a href="/benefits/benefit-finder">
+	<img title="Benefit Finder" alt="Benefit Finder" src="/assets/benefit-finder.png" class="benefit-finder-logo-img">
+</a><div id="mtid" class="ui-tabs ui-widget ui-widget-content ui-corner-all" style="font-size: 12px;"><ul class="mtabs ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">

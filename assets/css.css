@@ -1,0 +1,2093 @@
+body {
+	margin: 			0;
+	padding: 			0;
+	font-family: 		Arial, Helvetica, sans-serif;
+	font-size: 			12px;
+	color: 				#373737;
+	background: 		url(http://www.benefits.gov/static-dev/benefits/en/images/background.jpg) no-repeat scroll center top #FFFFFF;
+}
+h1 {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #01356A;
+	font-weight: bold;
+	font-size: 1.05em;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-size: 1.75em;
+	font-weight:normal;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	color: #0354a8;
+	font-size: 1.05em;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+h4 {
+	color: #44698e;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 1.25em;
+	padding: 0;
+	margin: 0;
+}
+h5 {
+	color: #999933;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 1.313em;
+	padding: 0;
+	margin: 0;
+}
+h6 {
+	color: #999966;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 1.313em;
+	padding: 0;
+	margin: 0;
+}
+img {
+	border:				0;
+}
+p {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+textarea { 
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 0.95em;
+}
+.next-steps-section p {
+	margin: 1em 0 1em 0;
+	padding: 0;
+}
+/**************************************************/
+a, a:visited, a:active, .looks-like-a-link {
+	color: 				#6291BD;
+	text-decoration:	none;
+	outline: none;
+}
+a:hover {
+	color:				#0099FF;
+	text-decoration:	underline;
+	outline: none;
+}
+.article-title a, .learn-about-title a {
+	font-weight: bold;
+}
+.breadcrumbs a, .breadcrumbs a:visited, .breadcrumbs a:active {
+	text-decoration: underline;
+}
+.main-nav a, .main-nav a:visited, .main-nav a:active {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.main-nav a:hover {
+	color:#0099FF;
+	text-decoration:none;
+}
+#language li a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+/**************************************************/
+.site-border {
+	width: 				960px;
+	height: 			100%;
+	margin-bottom:		20px;
+	margin: 			0 auto;
+	position:			relative;
+	top:				20px;
+	background-color:	#FFFFFF;
+	border: 			1px solid #E1E1E1;
+	overflow: hidden;
+}
+.site-border-email {
+	width: 				600px;
+	margin-bottom:		0;
+	top:				0;
+	border: 			0;
+}
+.main-nav {
+	background: 		url(http://www.benefits.gov/static-dev/benefits/en/images/nav-background.jpg) repeat-x;
+	margin: 			4px 4px 0px 4px;
+	padding: 			0 10px 0 14px;
+	height: 			36px;
+	position: 			relative;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	z-index: 50;
+}
+.main-nav ul, .footer ul, .breadcrumbs ul, .left-nav ul, .faq-links ul, .pane-three ul {
+	margin: 0;
+	padding: 0;
+}
+.main-nav ul {
+	position: relative;
+}
+#language li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 6px;
+	border-right: 1px solid #FFFFFF;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.addthis_button {
+	vertical-align:middle;
+	width: 125px;
+	height: 16px;
+}
+.nav-menu li a.addthis_button {
+	background: none;
+}
+a.skip-to-content { 
+    position:          absolute; 
+    left:              -999px; 
+    right:             -999px; 
+    width:             1px; 
+}
+/**************************************************/
+.nav-menu, .nav-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.nav-menu {
+	float:			right;
+	margin-bottom:	1em;
+}
+.nav-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.nav-menu ul li {
+	width:			100%;
+}
+.nav-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.nav-menu li {
+	float:			left;
+	position:		relative;
+}
+.nav-menu a {
+	display:		block;
+	position:		relative;
+}
+.nav-menu li:hover ul,
+.nav-menu li.sfHover ul {
+	left:			0;
+	top:			2.25em; /* match top ul list item height */
+}
+ul.nav-menu li:hover li ul,
+ul.nav-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.nav-menu li li:hover ul,
+ul.nav-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.nav-menu li li:hover li ul,
+ul.nav-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.nav-menu li li li:hover ul,
+ul.nav-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+.nav-menu a {
+	padding: 		6px 10px 6px 10px;
+	text-decoration: none;
+}
+.nav-menu a, .nav-menu a:visited  { /* visited pseudo selector so IE6 applies text color*/
+	color:			#FFFFFF;
+}
+.nav-menu li {
+	/*background:		#BDD2FF;*/
+}
+.nav-menu li li a, .nav-menu li li a:visited  { /* visited pseudo selector so IE6 applies text color*/
+	color: 				#6291BD;
+}
+.nav-menu li li {
+	background:		#AABDE6;
+	background: 	url(http://www.benefits.gov/static-dev/benefits/en/images/menu-active.jpg) repeat-y top left;
+}
+.nav-menu li li li {
+	background:		#9AAEDB;
+}
+.nav-menu li:hover, .nav-menu li.sfHover,
+.nav-menu a:focus, .nav-menu a:hover, .nav-menu a:active,
+.nav-menu li.current {
+	background:		#CFDEFF;
+	outline:		0;
+}
+li.current a, li.current a:visited{
+	color: 				#6291BD;
+}
+/*** arrows **/
+.nav-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			.7em;
+	width:			13px;
+	height:			13px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url(http://www.benefits.gov/static-dev/benefits/en/images/menu-arrow.png) no-repeat 0px 0px;
+	_background:		url(http://www.benefits.gov/static-dev/benefits/en/images/menu-arrow.gif) no-repeat 0px 0px;
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	/*top:			.7em;*/
+	background-position: 0px 0px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: 0px 0px; /* arrow hovers for modern browsers*/
+}
+/* point right for anchors in subs */
+.nav-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.nav-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.nav-menu ul a:focus > .sf-sub-indicator,
+.nav-menu ul a:hover > .sf-sub-indicator,
+.nav-menu ul a:active > .sf-sub-indicator,
+.nav-menu ul li:hover > a > .sf-sub-indicator,
+.nav-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+/*** shadows except IE6 ***/
+.sf-shadow ul {
+	background:	url(http://www.benefits.gov/static-dev/benefits/en/images/shadow.png) no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+/**************************************************/
+.header {
+	margin: 0;
+	float: left;
+	clear:both;
+	width: 100%;
+	z-index: 10;
+}
+.benefits-logo {
+	float:left;
+	width: 300px;
+	height: 74px;
+	position: relative;
+	left: 4px;
+	top: 2px;
+}
+.benefit-finder-logo-img {
+	position: absolute;
+	top: 44px;
+	left: 20px;
+}
+.site-search {
+	float:right;
+	position:relative;
+	top: 20px;
+	right: 20px;
+}
+.magnifying-glass {
+	position: absolute;
+	left: -28px;
+	top: -4px;
+	z-index: 10;
+}
+.search {
+	border: 0;
+	margin: 0;
+	float: left;
+	position: relative;
+	left: 3px;
+	_top: -1px;
+}
+.search-input, .email-textbox input, .email-textarea textarea {
+	vertical-align:top;
+	margin:0;
+	padding: 4px 4px 4px 12px;
+	border: 1px solid #E1E1E1;
+	background-image: url(http://www.benefits.gov/static-dev/benefits/en/images/search-background.jpg);
+	background-repeat:repeat-x;
+	height: 16px;
+	width: 180px;
+	outline:0 none;
+	font-size: 0.95em;
+	z-index: 8;
+}	
+.search-submit {
+	float: left;
+	border: 0;
+}
+.advanced-search {
+	clear: both;
+	position: absolute;
+	top: 30px;
+	left: 8px;
+	font-size: 0.95em;
+}
+/**************************************************/
+a.button {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/btn-left.jpg) no-repeat top left;
+	display: block;
+	float: left;
+	font: normal 12px Georgia,"Times New Roman",Times,serif;
+	line-height: 18px; /* height of button background - padding X 2 */
+	height: 26px; /* height of button background */
+	padding-left: 10px; /* width of left menu image */
+}
+a:link.button, a:visited.button, a:active.button {
+	color: #FFFFFF; /*button text color*/
+	font-weight: bold;
+	text-decoration: none;
+}
+a.button span {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/btn-right.jpg) no-repeat top right;
+	display: block;
+	padding: 4px 20px 4px 10px; /* set 10px below to match value of 'padding-left' value above */
+}
+a.button:hover {
+	background-position: bottom left;
+	text-decoration: none;
+}
+a.button:hover span {
+	background-position: bottom right;
+	color: #FFFFFF;
+}
+a.button span.subscribe-btn-only {
+	padding: 4px 8px 4px 0px;
+}
+a.start-button {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/start-btn-left.gif) no-repeat top left;
+	display: block;
+	float: left;
+	font: normal 24px Georgia,"Times New Roman",Times,serif;
+	line-height: 37px; /* height of button background - padding X 2 */
+	height: 45px; /* height of button background */
+	padding-left: 10px; /* width of left menu image */
+}
+a:link.start-button, a:visited.start-button, a:active.start-button {
+	color: #FFFFFF; /*button text color*/
+	font-weight: bold;
+	text-decoration: none;
+}
+a.start-button span {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/start-btn-right.gif) no-repeat top right;
+	display: block;
+	padding: 4px 20px 4px 10px; /* set 10px below to match value of 'padding-left' value above */
+}
+a.start-button:hover {
+	background-position: bottom left;
+	text-decoration: none;
+}
+a.start-button:hover span {
+	background-position: bottom right;
+	color: #FFFFFF;
+}
+/**************************************************/
+.home-main-content {
+	position: relative;
+	clear: both;
+	margin: 14px;
+	_margin: 11px 7px 11px 7px;
+	/*height: 390px;
+	padding: 0 14px 0 14px;*/
+	float: left;
+	width: 932px;
+	/*overflow: hidden;*/
+}
+.home-top-pane {
+	height: 390px;
+}
+.home-top-pane-irs {
+	height: 327px;
+}
+.barker {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/Home_Banner_10thAnniv_EN.jpg) no-repeat top left;
+	width: 670px;
+	height: 100%;
+	float: left;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #FFFFFF;
+	position: relative;
+}
+.barker-irs {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/barker-background-irs.jpg) no-repeat top left;
+	width: 932px;
+	height: 327px;
+	float: left;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #FFFFFF;
+	position: relative;
+}
+.barker-text-1 {
+	position: relative;
+	padding: 30px 0 16px 0;
+	margin: 0;
+	left: 36px;
+	width: 240px;
+	text-transform: uppercase;
+	text-align: center;
+	/*border: 1px solid white;*/
+	float: left;
+	letter-spacing: 1.6px;
+	word-spacing:6px;
+	font-size: 2em;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/barker-divider.jpg) no-repeat bottom center;
+}
+.barker-text-2 {
+	position: relative;
+	left: 76px;
+	text-align: center;
+	/*border: 1px solid white;*/
+	clear:left;
+	float: left;
+	font-size: 1.5em;
+	width: 170px;
+	padding: 16px 0 16px 0;
+	word-spacing: .05em;
+}
+.barker-text-1-irs {
+	position: relative;
+	padding: 42px 0 16px 0;
+	margin: 0;
+	left: 60px;
+	width: 280px;
+	text-transform: uppercase;
+	text-align: center;
+	/*border: 1px solid white;*/
+	float: left;
+	letter-spacing: 1.0px;
+	word-spacing:2px;
+	font-size: 2em;
+}
+.barker-text-2-irs {
+	position: relative;
+	left: 76px;
+	text-align: center;
+	/*border: 1px solid white;*/
+	clear:left;
+	float: left;
+	font-size: 1.5em;
+	width: 270px;
+	padding: 30px 0 16px 0;
+	word-spacing: .05em;
+}
+.campaign-message {
+    position: absolute;
+    text-align: center;
+    width: 280px;
+    top: 224px;
+    left: 640px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    color: #FFF;
+    line-height: 1.1em;
+    font-weight: bold;
+}
+.testify {
+	width: 230px;
+	height: 94px;
+	position: absolute;
+	top: 226px;
+	left: 402px;
+	padding: 10px;
+}
+.testimony {
+	color: #000000;
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.testifier {
+	color: #000000;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 8px 0 0 0;
+	font-size: 0.9em;
+	font-style: italic;
+}
+.transition {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top: -154px;
+	left: -142px;
+}
+.start {
+	clear:left;
+	float: left;
+	position: relative;
+	left: 80px;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.start-irs {
+	clear:left;
+	float: left;
+	position: relative;
+	left: 125px;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.home-right-pane {
+	width: 262px;
+	height: 100%;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/newsroom-background.gif) no-repeat top left;
+	float: left;
+	position: relative;
+}
+.home-right-pane ul, .learn-about ul {
+	list-style-image: url(http://www.benefits.gov/static-dev/benefits/en/images/arrow-bullet.gif);
+	list-style-position: outside;
+	position: relative;
+}
+.home-right-pane li, .learn-about li {
+	padding: 0 0 0 4px;
+}
+.news, .learn-about {
+	padding-right: 20px;
+	position: relative;
+}
+.news {
+	padding-bottom: 26px;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/right-divider.jpg) no-repeat bottom center;
+}
+.learn-about {
+	padding-top: 10px;
+}
+.news-header, .learn-about-header {
+	padding: 20px 0 4px 20px;
+	position: relative;
+}
+.article-content {
+	padding: 3px 0 3px 0;
+}
+.learn-about-title img {
+	position: absolute;
+	top: 22px;
+	_top: 32px;
+	right: 50px;
+}
+.home-bottom-pane {
+	clear: both;
+	float: left;
+	/*border: 1px solid black;*/
+	background-color: #E5E3D3;
+	position: relative;
+	width: 922px;
+	padding: 14px 0 14px 10px;
+	/*_padding: 14px 0 14px 10px;*/
+}
+.bottom-pane-window {
+	background-color: #F2F1EA;
+	height: 150px;
+	width: 265px;
+	padding: 16px;
+	float: left;
+	margin: 0 10px 0 0;
+	_margin: 0 5px 0 0;
+	position: relative;
+	/*_left: 0px;*/
+	overflow: hidden;
+}
+.bottom-pane-window-border {
+	position: relative;
+	float: left;
+}
+.bottom-pane-item {
+	display: block;
+}
+/******/
+.corner-home-top-left {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/sprite1.png) no-repeat;
+	background-position: 0px -44px;
+	top: 0px;
+	left: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-home-top-right {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/sprite1.png) no-repeat;
+	background-position: 0px -66px;
+	top: 0px;
+	right: 10px;
+	_right: 9px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-home-bottom-left {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/sprite1.png) no-repeat;
+	background-position: 0px 0px;
+	bottom: 0px;
+	_bottom: -3px;
+	left: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-home-bottom-right {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/sprite1.png) no-repeat;
+	background-position: 0px -22px;
+	bottom: 0px;
+	_bottom: -3px;
+	right: 10px;
+	_right: 9px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.bottom-pane-window h1 {
+	margin: 0 0 10px 0;
+}
+a.seperate-link {
+	padding: 4px 12px 0 14px;
+	float: left;
+	font-size: 0.95em;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/link_arrow.gif) no-repeat right 7px;
+}
+.ie6-margin-1 {
+	_margin: 0 5px 0 0; /*IE 6 bug to fix double margin*/
+}
+.bullet1 {
+	padding: 0 0 6px 20px;
+	margin: 10px 0 0 24px;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/arrow-bullet.gif) no-repeat left 4px;
+}
+.bullet1 .article-content, .bullet1 .read-more, .looks-like-a-link {
+	font-size: 0.95em;
+}
+.bullet2 {
+	padding: 0 0 6px 14px;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/arrow-bullet.gif) no-repeat left 4px;
+}
+.bullet3 {
+	padding: 0 0 6px 14px;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/arrow-bullet.gif) no-repeat left 8px;
+}
+.bullet3 img{
+	position: relative;
+	top: 2px;
+	margin: 0 0 0 6px;
+}
+.email-subscription {
+	float:left;
+	position:relative;
+	left: 12px;
+	top: 10px;
+	_top: -26px;
+}
+.email-subscription-input {
+	vertical-align:top;
+	margin:0;
+	padding: 4px 4px 4px 16px;
+	border: 1px solid #E1E1E1;
+	background-image: url(http://www.benefits.gov/static-dev/benefits/en/images/search-background.jpg);
+	background-repeat:repeat-x;
+	height: 16px;
+	width: 154px;
+	outline:0 none;
+	font-size: 0.95em;
+}
+.envelope {
+	position: absolute;
+	_position: relative;
+	left: -20px;
+	top: -4px;
+	_top: 30px;
+	z-index: 10;
+}
+.bottom-pane-window img.daip-logo-img {
+	padding: 8px 0 12px 14px;
+}
+/**************************************************/
+.breadcrumb-border {
+	position: relative;
+	clear: both;
+	z-index: 40;
+}
+.breadcrumbs {
+	font-weight: normal;
+	font-size: 0.95em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.breadcrumbs ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.breadcrumbs li{
+	list-style: none;
+	float: left;
+	padding: 0 16px 0 4px;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/breadcrumb_arrow.gif) no-repeat right 2px;
+}
+/**************************************************/
+.page-main-border {
+	width: 100%;
+	position: relative;
+	clear: left;
+	float: left;
+}
+.page-main, .page-main-two-pane {
+	position: relative;
+	margin: 10px;
+	_margin: 10px 5px 10px 5px;
+	padding: 36px 20px 10px 10px;
+	_padding: 44px 20px 10px 10px;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/content-background.jpg) no-repeat top left;
+	float: left;
+	clear: left;
+}
+.page-email {
+	padding: 0px 0px 10px 10px;
+	_padding: 8px 0px 10px 10px;
+}
+.page-main-two-pane {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/content-background-two-pane.jpg) no-repeat top left;
+	width: 100%;
+}
+.pane {
+	width: 100%;
+	float: left;
+	padding: 0 0 0 0;
+}
+.pane-one {
+	width: 78%;
+	float: left;
+	padding: 0 20px 0 0;
+}
+.pane-two {
+	width: 14%;
+	float: left;
+	padding: 0 10px 10px 10px;
+	position: relative;
+	top: -24px;
+}
+.pane-three {
+	width: 15%;
+	float: left;
+	padding: 0 10px 10px 10px;
+	position: relative;
+	top: -24px;
+	text-align: center;
+}
+.pane-three h1 {
+	padding: 0 0 8px 0;
+}
+.pane-three li {
+	list-style: none;
+	padding: 4px 0 4px 0;
+}
+.content-main-border {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.content-main-sub-border {
+	float: left;
+	width: 75%;
+}
+.page-header, .page-header-two-pane, .page-header-two-pane-right {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/header-left.gif) no-repeat top left;
+	position: relative;
+	display: block;
+	width: 886px;
+	float: left;
+	clear:left;
+	font: normal 22px Georgia,"Times New Roman",Times,serif;
+	line-height: 22px; /* height of button background - padding X 2 */
+	height: 42px; /* height of button background */
+	padding-left: 16px; /* width of left menu image */
+	margin: 20px 16px 10px 10px;
+	_margin: 10px 8px 10px 5px;
+}
+.page-header-email {
+	width: 486px;
+}
+.page-header span, .page-header-two-pane span, .page-header-two-pane-right span {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/header-right.gif) no-repeat top right;
+	display: block;
+	padding: 10px 0 10px 0; /* set 10px below to match value of 'padding-left' value above */
+	color: #FFFFFF;
+}
+.page-header-two-pane {
+	width: 96%;
+}
+.page-header-two-pane-right {
+	width: 100%;
+	overflow: auto;
+}
+.content {
+	margin: 0 0 0 20px;
+	_margin: 0 0 0 10px;
+	width: 880px;
+	_width: 97%;
+	float: left;
+	position: relative;
+}
+.content-main {
+	margin: 0 0 0 20px;
+	_margin: 0 0 0 10px;
+	width: 70%;
+	float: left;
+	position: relative;
+}
+.content-main-one-pane {
+	margin: 0 0 0 20px;
+	_margin: 0 0 0 10px;
+	width: 96%;
+	float: left;
+	position: relative;
+}
+.content-main-two-pane {
+	margin: 0 0 0 10px;
+	_margin: 0 0 0 10px;
+	/*width: 70%;*/
+	float: left;
+	position: relative;
+}
+.content-main-two-pane-right {
+	margin: 0 0 0 10px;
+	_margin: 0 0 0 10px;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.bold-gold {
+	color: #999933;
+	font-weight: bold;
+}
+.intro-text {
+	padding: 10px 0 20px 0;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/page-divider.gif) no-repeat bottom center;
+}
+.page-divider {
+	padding: 20px 0 20px 0;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/page-divider.gif) no-repeat bottom center;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 100%;
+}
+.page-divider-2 {
+	padding: 0 0 26px 0;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 100%;
+}
+.page-divider-3 {
+	padding: 14px 0 14px 0;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/page-divider.gif) no-repeat bottom center;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 100%;
+}
+.benefit-page-header {
+	position: relative;
+}
+.landing-row {
+	position: relative;
+	clear: left;
+	padding: 8px 0 0 0;
+}
+.landing-row-static {
+	position: relative;
+	clear: left;
+}
+.landing-col-1 {
+	float: left;
+	position: relative;
+	margin: 0 10px 0 0 ;
+}
+.benefit-text {
+	width: 450px;
+	float: left;
+}
+.landing-col-2 {
+	float: left;
+	position: relative;
+	margin: 0 24px 0 0 ;
+	width: 140px;
+}
+.landing-col-2 .benefit-text {
+	width: 100%;
+}
+.landing-col-2 img {
+	padding: 0 0 10px 0;
+}
+.landing-col-3 {
+	float: left;
+	position: relative;
+	margin: 8px 10px 0 0 ;
+}
+.icon {
+	background-position:	left top;
+	background-repeat:		no-repeat;
+	padding-left:			20px;
+}
+.pdf-icon {
+	background-image:		url(http://www.benefits.gov/static/common/images/pdf.gif);
+	line-height: 15px;
+    padding-bottom: 5px;
+}
+.word-icon {
+	background-image:		url(http://www.benefits.gov/static/common/images/wordIcon.gif);
+}
+.excel-icon {
+	background-image:		url(http://www.benefits.gov/static/common/images/excelIcon.gif);
+}
+.ppt-icon {
+	background-image:		url(http://www.benefits.gov/static/common/images/pptIcon.gif);
+}
+/**************************************************/
+.top-list-row, .top-list-row-mod, .top-list-row-header, .top-list-row-state {
+	overflow: auto;
+	clear: both;
+	width: 96%;
+	border-bottom: 1px solid #E1E1E1;
+	padding: 5px 0 5px 10px;
+}
+.top-list-row-state {
+	width: 150px;
+	clear: none;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: none;
+}
+.state-list {
+	clear: none;
+	float: left;
+	margin: 0 14px 0 0;
+}
+.mod {
+	background-color:#E8F1F5;
+}
+.top-list-row-header {
+	font-weight: bold;
+}
+.top-list-col-1 {
+	float: left;
+	width: 300px;
+}
+.top-list-col-2 {
+	float: left;
+	width: 160px;
+	text-align:center;
+}
+.top-list-col-3 {
+	float: left;
+	width: 800px;
+}
+.top-list-row-state .top-list-col-1 {
+	float: left;
+	width: 120px;
+}
+.top-list-row-state .top-list-col-2 {
+	float: left;
+	width: 30px;
+	text-align:center;
+}
+.state-map {
+	width: 	858px;
+	height: 277px;
+	margin: 0 auto;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/state-map-bg.jpg) no-repeat top center;
+}
+.state-map img {
+	position: relative;
+	top: 10px;
+	left: 130px;
+}
+.total-programs {
+	width: 106px;
+	height: 70px;
+	position: absolute;
+	top: 202px;
+	left: 704px;
+	padding: 10px 0;
+}
+.total-text {
+	color: #000000;
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.total-number {
+	color: #1C2C66;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 4.0em;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+/**************************************************/
+.action-buttons {
+	text-align: right;
+	position: relative;
+	padding: 4px 0 14px 0;
+	right: 20px;
+}
+.action-buttons a, .benefit-short .bottom a {
+	padding: 0 12px 4px 30px;
+	margin: 0 10px 0 0;
+	border-right: 1px solid #6291BD;
+}
+.action-buttons .email-btn {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/email-icon.gif) no-repeat;
+}
+.action-buttons .print-btn {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/print-icon.gif) no-repeat 2px 0px;
+}
+.benefit-details .subscribe-btn, .subscribe-btn {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/subscribe-icon.gif) no-repeat;
+	padding: 0 0 4px 26px;
+}
+.subscribe-static {
+	position: absolute;
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align:	right;
+	top: 19px;
+	right: 50px;
+}
+/**************************************************/
+.benefit-short-border {
+	position: relative;
+}
+.benefit-short {
+	border: 1px solid #e7e6d8;
+	margin: 0 0 20px 0;
+	position: relative;
+	_width: 100%;
+}
+.benefit-short .top {
+	background-color: #f7f7f2;
+	padding: 10px;
+}
+.benefit-short .bottom {
+	background-color: #e7e6d8;
+	text-align: right;
+	padding: 4px 20px 4px 4px;
+	font-size: 0.95em;
+}
+/**************************************************/
+.benefit-header, .benefit-header-news {
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 0 0 4px 0;
+	width: 450px;
+}
+.benefit-header-news {
+	width: 600px;
+}
+.landing-col-1 .benefit-header {
+	width: 450px;
+}
+.landing-col-2 .benefit-header {
+	width: 140px;
+}
+.benefit-short .benefit-header {
+	width: 830px;
+}
+.benefit-description {
+	padding: 10px 0 10px 0;
+	position: relative;
+	display: block;
+}
+/**************************************************/
+.corner-top-left {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/corner-top-left.gif) no-repeat;
+	top: 0px;
+	left: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-top-right {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/corner-top-right.gif) no-repeat;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-bottom-left {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/corner-bottom-left.gif) no-repeat;
+	_background: none;
+	bottom: 0px;
+	left: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-bottom-right {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/corner-bottom-right.gif) no-repeat;
+	_background: none;
+	bottom: 0px;
+	right: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-detail-top-left {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/corner-detail-top-left.gif) no-repeat;
+	top: 0px;
+	left: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+.corner-detail-top-right {
+	position: absolute;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/corner-detail-top-right.gif) no-repeat;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
+	width: 12px;
+	height: 12px;
+}
+/**************************************************/
+.benefit-long-border {
+	position: relative;
+	background-color: #f7f7f2;
+}
+.benefit-long {
+	border: 1px solid #e7e6d8;
+	margin: 0 0 20px 0;
+	position: relative;
+	_width: 100%;
+	overflow: hidden;
+}
+.benefit-long .top {
+	background-color: #e7e6d8;
+	text-align: right;
+	padding: 8px 20px 8px 4px;
+	font-size: 0.95em;
+	position: relative;
+}
+.benefit-detail-header {
+	background-color: #f7f7f2;
+	padding: 10px;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.benefit-detail-title {
+	float: left;
+	width: 60%;
+	color: #8e8e79;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2em;
+	padding: 14px;
+	border-right: 1px solid #e7e6d8;
+}
+.benefit-detail-agency {
+	float: left;
+	width: 30%;
+	padding: 6px 20px 0 20px;
+	/*vertical-align: middle;*/
+	/*clear: right;*/
+}
+.benefit-detail-agency span {
+	display: block;
+	color: #8e8e79;
+}
+.benefit-detail-agency .agency-header {
+	font-weight: bold;
+}
+.benefit-long .main-border {
+	background-color: #FFFFFF;
+	padding-right: 10px;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.benefit-long .main {
+	margin: 20px;
+}
+.benefit-detail-section {
+	margin: 0 0 20px 0;
+}
+.benefit-detail-text {
+	display: block;
+}
+.benefit-detail-text iframe {
+	display: block;
+    height: 275px;
+}
+.benefit-detail-poc {
+	display: block;
+	padding: 0 0 10px 0;
+}
+.benefit-detail-poc-item {
+	display: block;
+	overflow:auto;
+}
+.next-steps-section {
+	margin: 0 0 0 30px;
+}
+/**************************************************/
+.partner-landing-img {
+	width: 550px;
+	height: 196px;
+}
+.pad-1 {
+	padding: 10px 0 2px 0;
+}
+.pad-2 {
+	padding: 0 0 10px 0;
+}
+.pad-3 {
+	padding: 20px 0 0 0;
+}
+.pad-4 {
+	padding: 40px 0 0 0;
+	clear: both;
+	float: left;
+}
+.pad-5 {
+	padding-bottom: 80px;
+}
+.left-nav {
+	float: left;
+	width: 18%;
+	padding: 0 10px 0 10px;
+}
+.left-nav-section {
+	padding: 20px 0 0 0;
+	margin: 20px 0 0 0;
+	_margin: 10px 0 0 0;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/vertical-divider-2.png) no-repeat top center;
+	_background: url(http://www.benefits.gov/static-dev/benefits/en/images/vertical-divider-2.gif) no-repeat top center;
+	text-align: center;
+}
+.left-nav-news-section {
+	padding: 20px 0 0 0;
+	margin: 20px 0 0 0;
+	_margin: 10px 0 0 0;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/vertical-divider-2.png) no-repeat top center;
+	_background: url(http://www.benefits.gov/static-dev/benefits/en/images/vertical-divider-2.gif) no-repeat top center;
+	text-align: left;
+}
+.left-nav li {
+	margin: 10px 0 10px 0;
+	list-style: none;
+}
+/**************************************************/
+.content-main-three-pane-border {
+	float: left;
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+.content-main-three-pane-left {
+	width: 70%;
+	float: left;
+	/*border: 1px solid blue;*/
+	position: relative;
+	margin: 0 0 0 14px;
+	_margin: 0 0 0 7px;
+}
+.content-main-three-pane-main {
+	width: 96%;
+	float: left;
+	/*border: 1px solid blue;*/
+	position: relative;
+	margin: 0 0 0 14px;
+	_margin: 0 0 0 7px;
+}
+.content-main-three-pane-right {
+	float: left;
+	width: 26%;
+	padding: 0 0 10px 0;
+}
+.advocates-landing-img {
+	position: relative;
+	padding: 0 0 2px 0;
+	left: 4px;
+}
+.accolade {
+	color: #666633;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	display: block;
+	padding: 20px 24px 0 30px;
+}
+.quote {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/open-quote.gif) no-repeat 0px 10px;
+	padding: 14px 24px 0 30px;
+}
+.quote span {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/close-quote.gif) no-repeat 0px 0px;
+	position: absolute;
+	width: 28px;
+	height: 22px;
+}
+.quote-img {
+	position: relative;
+	left: 12px;
+}
+/**************************************************/
+.news-title {
+	color: #999933;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	display: block;
+	margin: 10px 0 20px 10px;
+}
+.news-article {
+	position: relative;
+	margin: 0 0 0 10px;
+}
+.news-img {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+.news-width {
+	width: 160px;
+}
+.news-date {
+	padding: 10px 0 20px 10px;
+}
+/**************************************************/
+.faq-links li {
+	list-style: none;
+	padding: 0 0 4px 0;
+}
+.back-to-top {
+	float: right;
+	clear: both;
+}
+.back-to-top a {
+	color: #999999;
+	text-decoration: none;
+}
+/**************************************************/
+.footer {
+	margin: 0;
+	padding: 12px 0 0 16px;
+	overflow: auto;
+	clear: both;
+	border-top: 1px solid #E1E1E1;
+	position: relative;
+	/*float: left;*/
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/footer-background.jpg) repeat-x top left;
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+.footer ul {
+	padding: 0;
+	margin:0;
+	list-style: none;
+	list-style-type: none;
+}
+.footer ul.main {
+	border: 0px solid #CCCCCC;
+	/*width: 100px;*/
+	height: 120px;
+	position: relative;
+	float: left;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/vertical-divider.gif) no-repeat top right;
+	margin: 0 12px 0 0;
+	padding: 0 12px 0 0;
+	width: 84px;
+}
+.footer ul.main li a {
+	font-weight: bold;
+	color: #8A8A8A;
+}
+.footer ul.main li li a, .footer ul#links li a {
+	font-weight: normal;
+	color: #6291BD;
+	font-size: 0.95em;
+}
+.footer ul.main li {
+	padding: 3px 0 3px 0;
+}
+.footer-right {
+	position: relative;
+	float: left;
+	top: -6px;
+}
+.footer-right ul#logos, .footer-right ul#links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-right ul#links {
+	position: relative;
+	top: 14px;
+	left: 12px;
+	float: left;
+	clear: left;
+}
+.footer-right ul#logos li {
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 0;
+}
+.footer-right ul#links li {
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 10px;
+	border-right: 1px solid #6291BD;
+}
+.footer-spacer {
+	height: 20px;
+	margin: 10px;
+}
+/**************************************************/
+.error-border {
+	background:url("http://www.benefits.gov/static-dev/benefits/en/images/big-path-logo.png") no-repeat scroll left top transparent;
+	clear:both;
+	display:block;
+	float:left;
+	left:0;
+	margin:0 10px 0 34px;
+	position:relative;
+	width:900px;
+}
+
+.error-body {
+	position: relative;
+	display: block;
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 70px 0 100px 0;
+	margin: 0 10px 0 34px;
+	position: relative;
+	width:666px;
+	left: 198px;
+}
+.error-content{
+	position: relative;
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 23px 12px 37px 10px;
+	line-height: 17pt;
+}
+.error-content span{
+	padding: 0 23px 0 0
+}
+.error-body span {
+	margin: 0 10px 0 0;
+}
+.error-header span{
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/header-right.gif) no-repeat top right;
+	display: block;
+	padding: 10px 0 10px 0; /* set 10px below to match value of 'padding-left' value above */
+	color: #FFFFFF;
+	margin: 0 10px 0 0;
+}
+.error-header {
+	background: transparent url(http://www.benefits.gov/static-dev/benefits/en/images/header-left.gif) no-repeat top left;
+	position: relative;
+	display: block;
+	width: 100%;
+	float: left;
+	clear:left;
+	font: normal 22px Georgia,"Times New Roman",Times,serif;
+	line-height: 22px; /* height of button background - padding X 2 */
+	height: 42px; /* height of button background */
+	padding-left: 16px; /* width of left menu image */
+	margin: 20px 16px 10px 10px;
+	_margin: 10px 8px 10px 5px;
+}
+.error-text {
+	color: 		#FF0000;
+}
+
+/******************************************************/
+.error-sitemap div.footer {
+	margin: 0;
+	padding: 12px 0 0 16px;
+	overflow: auto;
+	clear: both;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	position: relative;
+	/*float: left;*/
+	background: none;
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+.error-sitemap ul {
+	padding: 0;
+	margin:0;
+	list-style: none;
+	list-style-type: none;
+}
+.error-sitemap ul.main {
+	border: 0px solid #CCCCCC;
+	/*width: 100px;*/
+	height: 120px;
+	position: relative;
+	float: left;
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/vertical-divider.gif) no-repeat top right;
+	margin: 0 12px 0 0;
+	padding: 0 12px 0 0;
+	width: 84px;
+}
+.error-sitemap ul.main li a {
+	font-weight: bold;
+	color: #8A8A8A;
+}
+.error-sitemap ul.main li li a, .error-sitemap ul#links li a {
+	font-weight: normal;
+	color: #6291BD;
+	font-size: 0.95em;
+}
+.error-sitemap ul.main li {
+	padding: 2px 0 3px 0;
+}
+/******************************************************/
+.other-resource-border .page-divider-3 {
+	margin: 0 0 0 30px;
+	width: 94%;
+}
+.email-left {
+	float: left;
+	width: 90%;
+	padding: 0;
+}
+.contents-email {
+	float: left;
+	width: 30%;
+	padding: 0;
+}
+.email-right {
+	float: left;
+	clear: right;
+	width: 64%;
+ 	padding: 0 0 0 20px;
+	margin: 0 0 0 20px;
+	border-left: 1px solid #E7EEF4;
+}
+.email-bottom {
+	float: left;
+	clear: both;
+	width: 268px;
+	padding: 0;
+	margin: 0;
+}
+.email-textbox {
+	margin: 0 0 10px 0;
+}
+.email-textbox input {
+	width: 250px;;
+	font-size: 1em;
+}
+.email-label {
+	white-space: nowrap;
+	margin: 0 0 8px 0;
+}
+.email-h1 {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #01356A;
+	font-weight: bold;
+}
+.email-h1-error {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: red;
+	font-weight: bold;
+}
+.email-textarea textarea {
+	height: 76px;
+	width: 540px;
+	background-image: url(http://www.benefits.gov/static-dev/benefits/en/images/textarea-background.jpg);
+	font-size: 1em;
+}
+.emailBox-textarea textarea {
+	width: 250px;
+}
+.email-buttons {
+	display: inline;
+}
+.email-buttons a {
+	margin: 10px 20px 8px 0;
+}
+.email-note-border {
+	position: relative;
+	top: 20px;
+	left: 10px;
+	float: left;
+}
+span.email-note {
+	font-size: .9em;
+	color: #999999;
+}
+#validate {
+	position: relative;
+	top: 3px;
+}
+/**************************************************/
+li#last-child, .footer-right ul#links li#last-child, li:hover#last-child, 
+li#last-crumb, .last-child, a.last-child, .benefit-short a.last-child, .benefit-long a.last-child,
+.nav-menu a#last-child {
+	border-right: 0;
+	border-bottom: 0;
+	background: 0;
+	padding-right: 0;
+	margin-right: 0;
+}
+.benefit-short a.add, .benefit-long a.add, a.add {
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/add-icon.gif) no-repeat top left;
+	padding: 0 0 0 20px;
+	margin: 0 0 0 10px;
+}
+.no-bg {
+	background: 0;
+}
+/**************************************************/
+.social-icons { 
+	text-align: center; 
+	position: relative; 
+	padding: 16px 0 0 0; 
+	background: url(http://www.benefits.gov/static-dev/benefits/en/images/sprite1.png) no-repeat top center;
+	background-position: 0px -88px;
+	clear: left; 
+	top: 30px; 
+	_top: -26px;
+	color: #8A8A8A;
+}
+.social-icons img { 
+	margin: 0 5px; 
+}
+.social-icons-footer {
+	float: right;
+	position: relative;
+	top: -5px; 
+	_top: -19px;
+	left: 3px;
+	_left: -40px;
+}
+.social-icons-footer img{
+	margin: 0 3px;
+}
+.fipg-iframe {
+	height:292px; 
+	width:100%;
+	border:0;
+}
+.fipg-table {
+	border-collapse:collapse;
+	width: 240px;
+}
+.fipg-table table, td, th{
+	border: 1px solid #e1e1e1;
+	padding: 2px 2px 2px 6px;
+}
+.fipg-table td{
+	text-align: center;
+}
+.fipg-table th{
+	font-weight: bold;
+}
+.fipg-header {
+	padding: 0 0 20px 0;
+}
+.fipg-footer {
+	font-weight: bold;
+	padding: 20px 0 0 0;
+}
+.emailBox-error-text {
+	padding: 0 0 0 10px;
+	margin: 0;
+	color: red;
+	position: relative;
+	top: 4px;
+}
+
+
+
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1104;
+	display: none;
+}
+
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+}
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1100;
+	display: none;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	z-index: 1101;
+	outline: none;
+	display: none;
+}
+
+#fancybox-outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+#fancybox-content {
+	width: 0;
+	height: 0;
+	padding: 0;
+	outline: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1102;
+	border: 0px solid #fff;
+}
+
+#fancybox-hide-sel-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: 1101;
+}
+
+#fancybox-close {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	background: transparent url('/static-dev/benefits/common/images/fancybox/fancybox.png') -40px 0px;
+	cursor: pointer;
+	z-index: 1103;
+	display: none;
+}
+
+#fancybox-error {
+	color: #444;
+	font: normal 12px/20px Arial;
+	padding: 14px;
+	margin: 0;
+}
+
+#fancybox-img {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 0;
+	vertical-align: top;
+}
+
+#fancybox-frame {
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+}
+
+#fancybox-left, #fancybox-right {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	width: 35%;
+	cursor: pointer;
+	outline: none;
+	background: transparent url('/static-dev/benefits/common/images/fancybox/blank.gif');
+	z-index: 1102;
+	display: none;
+}
+
+#fancybox-left {
+	left: 0px;
+}
+
+#fancybox-right {
+	right: 0px;
+}
+
+#fancybox-left-ico, #fancybox-right-ico {
+	position: absolute;
+	top: 50%;
+	left: -9999px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	cursor: pointer;
+	z-index: 1102;
+	display: block;
+}
+
+#fancybox-left-ico {
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+	background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+	background-position: -40px -60px;
+}
+
+#fancybox-left:hover, #fancybox-right:hover {
+	visibility: visible; /* IE6 */
+}
+
+#fancybox-left:hover span {
+	left: 20px;
+}
+
+#fancybox-right:hover span {
+	left: auto;
+	right: 20px;
+}
+
+.fancybox-bg {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 20px;
+	height: 20px;
+	z-index: 1001;
+}
+
+#fancybox-bg-n {
+	top: -20px;
+	left: 0;
+	width: 100%;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox-x.png');
+}
+
+#fancybox-bg-ne {
+	top: -20px;
+	right: -20px;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+	background-position: -40px -162px;
+}
+
+#fancybox-bg-e {
+	top: 0;
+	right: -20px;
+	height: 100%;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox-y.png');
+	background-position: -20px 0px;
+}
+
+#fancybox-bg-se {
+	bottom: -20px;
+	right: -20px;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+	background-position: -40px -182px; 
+}
+
+#fancybox-bg-s {
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox-x.png');
+	background-position: 0px -20px;
+}
+
+#fancybox-bg-sw {
+	bottom: -20px;
+	left: -20px;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+	background-position: -40px -142px;
+}
+
+#fancybox-bg-w {
+	top: 0;
+	left: -20px;
+	height: 100%;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox-y.png');
+}
+
+#fancybox-bg-nw {
+	top: -20px;
+	left: -20px;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancybox.png');
+	background-position: -40px -122px;
+}
+
+#fancybox-title {
+	font-family: Helvetica;
+	font-size: 12px;
+	z-index: 1102;
+}
+
+.fancybox-title-inside {
+	padding-bottom: 10px;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	position: relative;
+}
+
+.fancybox-title-outside {
+	padding-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-over {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	text-align: left;
+}
+
+#fancybox-title-over {
+	padding: 10px;
+	background-image: url('/static-dev/benefits/common/images/fancybox/fancy_title_over.png');
+	display: block;
+}
+
+.fancybox-title-float {
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	height: 32px;
+}
+
+#fancybox-title-float-wrap {
+	border: none;
+	border-collapse: collapse;
+	width: auto;
+}
+
+#fancybox-title-float-wrap td {
+	border: none;
+	white-space: nowrap;
+}
+
+#fancybox-title-float-left {
+	padding: 0 0 0 15px;
+	background: url('/static-dev/benefits/common/images/fancybox/fancybox.png') -40px -90px no-repeat;
+}
+
+#fancybox-title-float-main {
+	color: #FFF;
+	line-height: 29px;
+	font-weight: bold;
+	padding: 0 0 3px 0;
+	background: url('/static-dev/benefits/common/images/fancybox/fancybox-x.png') 0px -40px;
+}
+
+#fancybox-title-float-right {
+	padding: 0 0 0 15px;
+	background: url('/static-dev/benefits/common/images/fancybox/fancybox.png') -55px -90px no-repeat;
+}
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_ne.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_e.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_se.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_s.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_sw.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_w.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static-dev/benefits/common/images/fancybox/fancy_shadow_nw.png', sizingMethod='scale'); }
+
+/****    http://search.usa.gov/stylesheets/compiled/sayt.css    ****/
+.ac_results{padding:0px;background:#fff;z-index:99999}.ac_results ul{width:100%;list-style:none;padding:0;margin:0;border:1px solid #888}.ac_results li{margin:0px;padding:3px;cursor:default;display:block;font:menu;font-size:12px;text-align:left}.ac_loading{background:#fff right center no-repeat}.ac_over{background-color:#ffb}.ac_results ul strong.highlight{color:#6291BD;margin:0;padding:0}.sayt_highlight{font-weight:normal;color:#444}.ui-autocomplete{z-index:100;text-align:left;font-weight:bold;font-size:smaller}.ui-menu .ui-menu-item a{color:#1445ac;font-size:0.9em}.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active{font-weight:bold}.search_usa_autocomplete{border-top:0}.search_usa_autocomplete .ui-menu-item a,.search_usa_autocomplete .ui-menu-item span{font-family:verdana,verdana,sans-serif;font-size:14px;font-weight:normal}.search_usa_autocomplete .ui-menu-item a{padding-left:33px}.affiliate_autocomplete{border-top:0}.default .affiliate_autocomplete .ui-menu-item a,.default .affiliate_autocomplete .ui-menu-item span{font-family:verdana,verdana,sans-serif;font-size:11px;font-weight:normal}.default .affiliate_autocomplete .ui-menu-item a{padding-left:4px}.one-serp.default .affiliate_autocomplete .ui-menu-item a,.one-serp.default .affiliate_autocomplete .ui-menu-item span{font-family:verdana,verdana,sans-serif;font-size:13px;font-weight:normal}.one-serp.default .affiliate_autocomplete .ui-menu-item a{padding-left:12px}.basic_gray .affiliate_autocomplete .ui-menu-item a,.basic_gray .affiliate_autocomplete .ui-menu-item span{font-family:verdana,verdana,sans-serif;font-size:14px;font-weight:normal}.basic_gray .affiliate_autocomplete .ui-menu-item a{padding-left:10px}.program_autocomplete{border-top:0}.program_autocomplete .ui-menu-item a,.program_autocomplete .ui-menu-item span{font-family:verdana,verdana,sans-serif;font-size:14px;font-weight:normal}.program_autocomplete .ui-menu-item a{padding-left:4px}
