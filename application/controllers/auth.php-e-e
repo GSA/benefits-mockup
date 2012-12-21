@@ -60,7 +60,7 @@ class Auth extends CI_Controller
 				// if we don't already have this user, then direct to registration page with prefilled values (username, email if provided) - will need to check to see if username or email address are already in use too
 				// if we already have this user then we make sure session variables are set and redirect them to their dashboard page. Every other page checks their session to make sure they're logged in and legit
 				
-				 redirect('/finder/step1');
+				 redirect('/');
 
 
 				/*

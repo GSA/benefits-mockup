@@ -18,7 +18,10 @@
 <meta content="EgJ6rkU0KZuXB19VI_x8s-K4_ler9CVs4hi0PQwx5ic" name="google-site-verification">
 <meta content="9D8362E06B89356F791992F1447E4E87" name="msvalidate.01">
 <meta content="Benefits.gov is a partnership of many Federal agencies and organizations with a shared vision - to provide improved, personalized access to government benefit programs." name="description">
+
+<?php if(!empty($step)): ?>
 <style type="text/css">.benefits-logo {height:80px; position:relative; top:-999px; left:-999px; visibility:hidden; } </style>
+<?php endif;?>
 
 <script type="text/javascript" src="/assets/jquery-ui.js"></script>
 <script type="text/javascript" src="/assets/jquery.questionnaire-1.0.js"></script>
@@ -108,19 +111,4 @@ function loadUrl(newLocation)
 		</span>
 	</div>
 
-    <div class="breadcrumb-border">
-    	<div class="breadcrumbs">
-    		<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/benefits">Benefits</a></li>
-<li id="last-crumb">Benefit Finder</li>
-</ul>
-
-     	</div>
-     </div>
-     
-     <a href="#" id="skip-to-content" name="skip-to-content"></a>
-
-     <div id="questionnaire" style="margin: 50px auto 0px; width: 100%; float: left; padding: 0px 15px;"><a href="/benefits/benefit-finder">
-	<img title="Benefit Finder" alt="Benefit Finder" src="/assets/benefit-finder.png" class="benefit-finder-logo-img">
-</a><div id="mtid" class="ui-tabs ui-widget ui-widget-content ui-corner-all" style="font-size: 12px;"><ul class="mtabs ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+  
