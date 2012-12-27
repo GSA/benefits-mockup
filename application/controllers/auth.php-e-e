@@ -34,7 +34,6 @@ class Auth extends CI_Controller
                 // Here you should use this information to A) look for a user B) help a new user sign up with existing data.
                 // If you store it all in a cookie and redirect to a registration page this is crazy-simple.
 
-
 				$users_auth = array('provider_user_id' => $user['id'], 
 								   'token' => $token->access_token, 
 								   'provider' => 'mygov');
@@ -103,7 +102,7 @@ class Auth extends CI_Controller
 
 	public function logout() {
 		$this->session->sess_destroy();
-		redirect('/finder/step1');
+		redirect('/');
 	}
 
 	// need a function to check for login status, I think this can just verify the value of a session variable

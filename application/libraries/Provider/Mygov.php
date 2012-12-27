@@ -51,8 +51,8 @@ class OAuth2_Provider_Mygov extends OAuth2_Provider
 
 		$user = json_decode(file_get_contents($url,false,$context));
 		$user = $user->user;
-
-
+			
+		
 		// Create a response from the request
 		return array(
 			'id' => $user->id,

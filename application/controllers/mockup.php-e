@@ -23,6 +23,8 @@ class Mockup extends CI_Controller {
 	
 		//$data = array('step' => 'step1');
 		$data = array();
+		$data['user'] = $this->session->userdata('user_data');
+		
 
 		$this->load->view('mockup', $data);
 	}
@@ -43,7 +45,25 @@ class Mockup extends CI_Controller {
 	
 	public function save_tasks($tasks = null) {
 		
-		$tasks = 'task[name]=Change%20your%20name&task[task_items_attributes][][name]=[FILTERED]&task[task_items_attributes][][url]=http://www.socialsecurity.gov/online/ss-5.pdf';
+		$benefits 	= $this->input->post('benefit');
+		$names 		= $this->input->post('name');
+		$urls 		= $this->input->post('url');				
+		
+			$tasks = 'task[name]=Sign-up%20for%20Benefits';
+		
+		foreach ($benefits as $key => $benefit) {
+
+			if ($benefit == 'save' && !empty($names[$key]) && !empty($urls[$key])) {
+				
+				$name 	= urlencode($names[$key]);
+				$url 	= urlencode($urls[$key]);
+			
+				$tasks .= '&task[task_items_attributes][][name]=' . $name . 
+						  '&task[task_items_attributes][][url]=' . $url;
+			}		
+		}
+		
+		
 		
 		$access_token = $this->session->userdata('token');
 		
@@ -55,6 +75,7 @@ class Mockup extends CI_Controller {
 				'content' => $tasks
 			)
 		);
+		
 		$_default_opts = stream_context_get_params(stream_context_get_default());
 		
 		$opts = array_merge_recursive($_default_opts['options'], $opts);
@@ -63,9 +84,20 @@ class Mockup extends CI_Controller {
 
 		$save = json_decode(file_get_contents($url,false,$context));
 
-		return $save;		
+		//var_dump($save);
+
+		$data = array();
+		$data['step'] = 'saved';
+
+		$data['user'] = $this->session->userdata('user_data');
+		$data['saved'] = $save;		
+
+		$this->load->view('mockup', $data);
+
+		//return $save;		
 		
 	}
+	
 
 }
 
