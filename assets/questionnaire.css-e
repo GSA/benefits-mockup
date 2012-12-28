@@ -8,6 +8,23 @@
  * http://docs.jquery.com/UI/Theming/API
  */
 
+.highlight-prefill {
+ float : left;
+  clear : both;
+  padding : .5em;
+  color : green;
+  background-color : #FFFDC9;
+}
+
+.saved-results h2 {
+	margin : 1em 0;
+}
+
+.saved-results p {
+font-size : 1.3em;
+ line-height : 1.2em;
+}
+
 /* Layout helpers
 ----------------------------------*/
 .ui-helper-hidden { display: none; }
@@ -216,7 +233,17 @@
 .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
 .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
 .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
-.ui-button-review-answers{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/ui-button-review-answers.png);width:155px;height:25px;text-align:center;background-repeat:no-repeat;float:right; padding:7px 0px 0px 38px; font-size:10px;cursor:pointer;color:#508FCC;}
+.ui-widget button.ui-button-review-answers{
+	background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/ui-button-review-answers.png);
+	width:190px;
+  height:35px;
+  background-color : #fff;
+  text-align:center;background-repeat:no-repeat;float:right; 
+  padding:0px 0px 7px 32px; font-size:10px;cursor:pointer;
+	color:#508FCC;
+	line-height : 0;
+	border : none;
+	}
 
 /* Misc visuals
 ----------------------------------*/

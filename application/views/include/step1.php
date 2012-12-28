@@ -139,7 +139,12 @@
 			<div id="cat_1_1001" class="ui-question">
 				<div id="qid_1001" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">2</strong>&nbsp;&nbsp;&nbsp;What is your date of birth? (Enter date in mm/dd/yyyy format.)</span><span class="ui-icon-question-help" id="cat_1_qh_1001"></span></span>
+
+				<?php if (!empty($user['date_of_birth'])):?>	
+				<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+				<?php endif;?>
 				</div>
+
 				<div title="Question Help Text" id="cat_1_help_1001" class="ui-question-help-content" style="display: none;">
 					<p>
 						Enter your date of birth as a 2-digit month, a 2-digit day and a 4-digit year. For example, if you were born on July 5, 1935 enter 07/05/1935.
@@ -152,6 +157,10 @@
 			<div id="cat_1_2014" class="ui-question">
 				<div id="qid_2014" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">3</strong>&nbsp;&nbsp;&nbsp;Where do you live?</span><span class="ui-icon-question-help" id="cat_1_qh_2014"></span></span>
+
+					<?php if (!empty($user['state'])):?>	
+					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+					<?php endif;?>
 				</div>
 				<div title="Question Help Text" id="cat_1_help_2014" class="ui-question-help-content" style="display: none;">
 					<p>
@@ -171,6 +180,9 @@
 			<div id="cat_1_1124" class="ui-question">
 				<div id="qid_1124" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">4</strong>&nbsp;&nbsp;&nbsp;In which U.S. State do you live?</span><span class="ui-icon-question-help" id="cat_1_qh_1124"></span></span>
+					<?php if (!empty($user['state'])):?>	
+					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+					<?php endif;?>					
 				</div>
 				<div title="Question Help Text" id="cat_1_help_1124" class="ui-question-help-content" style="display: none;">
 					<p>
@@ -404,6 +416,9 @@
 			<div id="cat_1_2021" class="ui-question">
 				<div id="qid_2021" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">9</strong>&nbsp;&nbsp;&nbsp;Are you currently married?</span><span class="ui-icon-question-help" id="cat_1_qh_2021"></span></span>
+					<?php if (!empty($user['marital_status'])):?>	
+					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+					<?php endif;?>					
 				</div>
 				<div title="Question Help Text" id="cat_1_help_2021" class="ui-question-help-content" style="display: none;">
 					<p>
