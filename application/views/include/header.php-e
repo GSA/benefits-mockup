@@ -4,6 +4,10 @@
 <meta content="text/html; charset=utf8" http-equiv="Content-Type">
 <title>Benefits.gov - Benefit Finder</title>
 
+<?php if(strlen(config_item('app_url')) > 0): ?>
+<base href="<?php echo config_item('app_url')?>" />
+<?php endif;?>
+
 <link type="image/x-icon" href="/static-dev/benefits/en/images/benefits.ico" rel="shortcut icon">
 <link href="/static-dev/benefits/en/images/apple-touch-icon.png" rel="apple-touch-icon">
 

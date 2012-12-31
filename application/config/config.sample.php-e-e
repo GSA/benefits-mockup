@@ -4,7 +4,11 @@
 $config['mygov_oauth_id'] = '**********';
 $config['mygov_oauth_secret'] = '**********';
 
-$config['mygov_oauth_redirect'] =  'http://' . $_SERVER['SERVER_NAME'] . '/auth/session/mygov';
+
+$config['app_dir'] = ''; // eg '/benefits'
+$config['app_url'] = 'http://' . $_SERVER['SERVER_NAME'] . $config['app_dir'];
+
+$config['mygov_oauth_redirect'] =  $config['app_url'] . '/auth/session/mygov';
 
 
 /*
