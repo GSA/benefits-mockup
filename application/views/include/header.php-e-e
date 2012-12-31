@@ -11,13 +11,13 @@
 <link type="image/x-icon" href="/static-dev/benefits/en/images/benefits.ico" rel="shortcut icon">
 <link href="/static-dev/benefits/en/images/apple-touch-icon.png" rel="apple-touch-icon">
 
-<link type="text/css" href="/assets/css.css" rel="stylesheet">
+<link type="text/css" href="./assets/css.css" rel="stylesheet">
 
 <link media="print" type="text/css" href="/static-dev/benefits/en/css/print.css" rel="stylesheet">
 <!--[if IE 7]><link rel="stylesheet" href="/static-dev/benefits/en/css/ie7.css" type="text/css" /><![endif]-->
 
 <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="/static-dev/common/js/jquery.min.js" type="text/javascript"></script>
-<script src="/assets/benefits-1.0.js" type="text/javascript"></script>
+<script src="./assets/benefits-1.0.js" type="text/javascript"></script>
 
 <meta content="EgJ6rkU0KZuXB19VI_x8s-K4_ler9CVs4hi0PQwx5ic" name="google-site-verification">
 <meta content="9D8362E06B89356F791992F1447E4E87" name="msvalidate.01">
@@ -27,9 +27,9 @@
 <style type="text/css">.benefits-logo {height:80px; position:relative; top:-999px; left:-999px; visibility:hidden; } </style>
 <?php endif;?>
 
-<script type="text/javascript" src="/assets/jquery-ui.js"></script>
-<script type="text/javascript" src="/assets/jquery.questionnaire-1.0.js"></script>
-<link type="text/css" href="/assets/questionnaire.css" rel="stylesheet">
+<script type="text/javascript" src="./assets/jquery-ui.js"></script>
+<script type="text/javascript" src="./assets/jquery.questionnaire-1.0.js"></script>
+<link type="text/css" href="./assets/questionnaire.css" rel="stylesheet">
 
 <script src="/analytics.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://search.usa.gov/javascripts/stats.js"></script></head>
@@ -65,7 +65,7 @@ function loadUrl(newLocation)
 		</ul>		
 		
 		<ul class="nav-menu sf-js-enabled sf-shadow">
-			<li id="last-child"><a href="http://addthis.com/bookmark.php?v=250&amp;username=xa-4bb60b8d5a4d2e30" id="last-child" class="addthis_button" target="_blank"><img title="Bookmark and Share" alt="Bookmark and Share" src="/assets/addThis.gif"></a></li>
+			<li id="last-child"><a href="http://addthis.com/bookmark.php?v=250&amp;username=xa-4bb60b8d5a4d2e30" id="last-child" class="addthis_button" target="_blank"><img title="Bookmark and Share" alt="Bookmark and Share" src="./assets/addThis.gif"></a></li>
 		</ul>
 				
 
@@ -95,13 +95,13 @@ function loadUrl(newLocation)
     
     <div class="header">
 		<span class="benefits-logo">
-			<a href="/"><img title="Benefits.gov - Your Path to Government Benefits" alt="Benefits.gov - Your Path to Government Benefits" src="/assets/benefits-logo.jpg" class="benefits-logo-img"></a>
+			<a href="/"><img title="Benefits.gov - Your Path to Government Benefits" alt="Benefits.gov - Your Path to Government Benefits" src="./assets/benefits-logo.jpg" class="benefits-logo-img"></a>
 		</span>
 		<span class="site-search">
 
         	  <form onsubmit="_gaq.push(['_linkByPost', this]);" name="search" method="get" id="search_form" action="http://search.usa.gov/search" accept-charset="UTF-8"><div style="margin:0;padding:0;display:inline"><input type="hidden" value="?" name="utf8"></div>
             <input type="hidden" value="govbenefits" name="affiliate" id="affiliate">
-        	<span class="magnifying-glass"><img title="This image depicts a magnifying glass for searching" alt="This image depicts a magnifying glass for searching" src="/assets/magnifying-glass.gif" class="magnifying-glass-img"></span>
+        	<span class="magnifying-glass"><img title="This image depicts a magnifying glass for searching" alt="This image depicts a magnifying glass for searching" src="./assets/magnifying-glass.gif" class="magnifying-glass-img"></span>
 			<span class="search">
 				<input type="text" autocomplete="off" name="query" alt="Search" title="Search" id="query" class="usagov-search-autocomplete search-input ac_input">
 			</span>
