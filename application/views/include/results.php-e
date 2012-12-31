@@ -6,7 +6,7 @@
 	
 	<form action="/save" method="post">
 	
-	<div class="action-buttons"><a href="/email/email-popup?title=View%20Benefit%20Results&amp;emailURL=/benefits/benefit-details/816-4418-4737-4422-4416-949-936-346-348-435-4632-428-431-1503-1505-1504" class="email-btn" id="emailFAV">E-mail Page</a><a href="#results" class="print-btn last-child">Print Page</a></div><h2>View Benefit Results</h2><br>
+	<div class="action-buttons"><a href="./email/email-popup?title=View%20Benefit%20Results&amp;emailURL=/benefits/benefit-details/816-4418-4737-4422-4416-949-936-346-348-435-4632-428-431-1503-1505-1504" class="email-btn" id="emailFAV">E-mail Page</a><a href="#results" class="print-btn last-child">Print Page</a></div><h2>View Benefit Results</h2><br>
 	
 	<button type="submit" class="ui-button-review-answers">Save to Your MyGov Account</button>
 	

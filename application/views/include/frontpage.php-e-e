@@ -8,7 +8,7 @@
             	Answer questions to find out which government benefits you may be eligible to receive
             </div>
             <div class="start">
-                    <a href="/benefits/benefit-finder/" class="start-button"><span>Start Now</span></a>
+                    <a href="./benefits/benefit-finder/" class="start-button"><span>Start Now</span></a>
 			</div>
             <div class="testify">
             	<span class="testimony"></span>
@@ -19,7 +19,7 @@
         </div>
         <div class="home-right-pane">
         	<div style="background:none; padding-bottom:0;" class="news">
-          	<a href="/ExternalLinkPageFlow/ExternalLinkPageFlowController.jpf?url=http://www.careeronestop.org/reemployment/" target="_blank">
+          	<a href="./ExternalLinkPageFlow/ExternalLinkPageFlowController.jpf?url=http://www.careeronestop.org/reemployment/" target="_blank">
 
 
 <img style="position:relative; top:10px; left: 10px; padding-bottom:4px;" title="The official CareerOneStop logo - Lost your job? Visit CareerOneStop Worker ReEmployment. Click here to proceed to CareeerOneStop site." alt="The official CareerOneStop logo - Lost your job? Visit CareerOneStop Worker ReEmployment. Click here to proceed to CareeerOneStop site." src="/static/benefits/en/images/careeronestop-home-banner.png">
@@ -29,21 +29,21 @@
 
     
 		<div class="bullet1">
-			<div class="article-title"><a href="/news/news-articles/archive/news-article/790">Announcing the Benefits.gov YouTube Channel!</a></div>
+			<div class="article-title"><a href="./news/news-articles/archive/news-article/790">Announcing the Benefits.gov YouTube Channel!</a></div>
 			<div class="article-content">As part of celebrating Benefits.gov's 10th anniversary of citizen service, we are pleased ...</div>
-			<div class="read-more"><a href="/news/news-articles/archive/news-article/790">Read more</a></div>
+			<div class="read-more"><a href="./news/news-articles/archive/news-article/790">Read more</a></div>
 		</div>
     
 		<div class="bullet1">
-			<div class="article-title"><a href="/news/news-articles/archive/news-article/789">Ushering In New Healthcare Reforms</a></div>
+			<div class="article-title"><a href="./news/news-articles/archive/news-article/789">Ushering In New Healthcare Reforms</a></div>
 			<div class="article-content">Benefits.gov wants you to know that on January 1, 2013, three new provisions...</div>
-			<div class="read-more"><a href="/news/news-articles/archive/news-article/789">Read more</a></div>
+			<div class="read-more"><a href="./news/news-articles/archive/news-article/789">Read more</a></div>
 		</div>
     
 		<div class="bullet1">
-			<div class="article-title"><a href="/news/news-articles/archive/news-article/788">Help For Hurricane Sandy Survivors</a></div>
+			<div class="article-title"><a href="./news/news-articles/archive/news-article/788">Help For Hurricane Sandy Survivors</a></div>
 			<div class="article-content">Two days before Halloween, Americans in 21 states were frightened by a real-life monster...</div>
-			<div class="read-more"><a href="/news/news-articles/archive/news-article/788">Read more</a></div>
+			<div class="read-more"><a href="./news/news-articles/archive/news-article/788">Read more</a></div>
 		</div>
     
     </div>
@@ -64,7 +64,7 @@
 	                <div class="bullet2">The official benefits website of the U.S. government</div>
 	                <div class="bullet2">Informs citizens of benefits they may be eligible for</div>
 	                <div class="bullet2">Provides information on how to apply for assistance</div>
-			<div class="bullet2">Learn about <a href="/help/faqs/#four">FREE MONEY and GRANTS</a></div>
+			<div class="bullet2">Learn about <a href="./help/faqs/#four">FREE MONEY and GRANTS</a></div>
 		        </div>
 		    </div>
             

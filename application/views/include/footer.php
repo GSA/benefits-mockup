@@ -1,7 +1,7 @@
 
         <div class="footer">
 		<ul class="main">
-			<li><a href="/">Home</a>
+			<li><a href="./">Home</a>
 				<ul>
 					<li><a class="languageSwitch" href="http://es.benefits.gov/benefits/benefit-finder/#benefits&amp;qc=cat_1">En Español</a></li>
 				</ul>
@@ -11,33 +11,33 @@
     
 
 	<ul class="main">
-		<li><a href="/benefits">Benefits</a><ul>
-			<li><a href="/benefits/benefit-finder">Benefit Finder</a></li>
-			<li><a href="/benefits/browse-by-state">By State</a></li>
-			<li><a href="/benefits/browse-by-category">By Category</a></li>
-			<li><a href="/benefits/browse-by-federal-agency">By Federal Agency</a></li>
-			<li><a href="/benefits/other-resources">Other Resources</a></li></ul></li>
+		<li><a href="./benefits">Benefits</a><ul>
+			<li><a href="./benefits/benefit-finder">Benefit Finder</a></li>
+			<li><a href="./benefits/browse-by-state">By State</a></li>
+			<li><a href="./benefits/browse-by-category">By Category</a></li>
+			<li><a href="./benefits/browse-by-federal-agency">By Federal Agency</a></li>
+			<li><a href="./benefits/other-resources">Other Resources</a></li></ul></li>
 	</ul>
 	<ul class="main">
-		<li><a href="/news">Newsroom</a><ul>
-			<li><a href="/news/news-articles">News Articles</a></li>
-			<li><a href="/news/newsletter">eNewsletter</a></li>
-			<li><a href="/news/press-releases">Press Releases</a></li></ul></li>
+		<li><a href="./news">Newsroom</a><ul>
+			<li><a href="./news/news-articles">News Articles</a></li>
+			<li><a href="./news/newsletter">eNewsletter</a></li>
+			<li><a href="./news/press-releases">Press Releases</a></li></ul></li>
 	</ul>
 	<ul class="main">
-		<li><a href="/advocates">Advocates</a><ul>
-			<li><a href="/advocates/community-advocates">Community Advocates</a></li>
-			<li><a href="/advocates/partners">Partners</a></li></ul></li>
+		<li><a href="./advocates">Advocates</a><ul>
+			<li><a href="./advocates/community-advocates">Community Advocates</a></li>
+			<li><a href="./advocates/partners">Partners</a></li></ul></li>
 	</ul>
 	<ul class="main">
-		<li><a href="/about-us">About</a><ul>
-			<li><a href="/about-us/overview">Overview</a></li>
-			<li><a href="/about-us/link-to-us">Link to Us</a></li></ul></li>
+		<li><a href="./about-us">About</a><ul>
+			<li><a href="./about-us/overview">Overview</a></li>
+			<li><a href="./about-us/link-to-us">Link to Us</a></li></ul></li>
 	</ul>
 	<ul class="main">
-		<li><a href="/help">Help</a><ul>
-			<li><a href="/help/faqs">FAQs</a></li>
-			<li><a href="/email/contact-us">Contact Us</a></li></ul></li>
+		<li><a href="./help">Help</a><ul>
+			<li><a href="./help/faqs">FAQs</a></li>
+			<li><a href="./email/contact-us">Contact Us</a></li></ul></li>
 	</ul>
 
 	        <div class="footer-right">
@@ -48,7 +48,7 @@
                 <li><a target="_blank" href="http://www.whitehouse.gov"><img title="This link opens the Whitehouse.gov website in a new browser window." alt="This link opens the Whitehouse.gov website in a new browser window." src="http://www.benefits.gov/static/benefits/en/images/whitehouse-footer-bw.gif"></a></li>
             </ul>
             <ul id="links">
-            	<li><a href="/privacy-and-terms-of-use/">Privacy &amp; Terms of Use</a></li>
+            	<li><a href="./privacy-and-terms-of-use/">Privacy &amp; Terms of Use</a></li>
                 <li id="last-child"><span class="looks-like-a-link">Follow Us</span>
 
 			<div class="social-icons-footer">
