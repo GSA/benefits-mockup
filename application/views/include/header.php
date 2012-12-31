@@ -8,13 +8,13 @@
 <base href="<?php echo config_item('app_url')?>" />
 <?php endif;?>
 
-<link type="image/x-icon" href="/static-dev/benefits/en/images/benefits.ico" rel="shortcut icon">
-<link href="/static-dev/benefits/en/images/apple-touch-icon.png" rel="apple-touch-icon">
+<link type="image/x-icon" href="./static-dev/benefits/en/images/benefits.ico" rel="shortcut icon">
+<link href="./static-dev/benefits/en/images/apple-touch-icon.png" rel="apple-touch-icon">
 
 <link type="text/css" href="./assets/css.css" rel="stylesheet">
 
-<link media="print" type="text/css" href="/static-dev/benefits/en/css/print.css" rel="stylesheet">
-<!--[if IE 7]><link rel="stylesheet" href="/static-dev/benefits/en/css/ie7.css" type="text/css" /><![endif]-->
+<link media="print" type="text/css" href="./static-dev/benefits/en/css/print.css" rel="stylesheet">
+<!--[if IE 7]><link rel="stylesheet" href="./static-dev/benefits/en/css/ie7.css" type="text/css" /><![endif]-->
 
 <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="/static-dev/common/js/jquery.min.js" type="text/javascript"></script>
 <script src="./assets/benefits-1.0.js" type="text/javascript"></script>
@@ -49,17 +49,17 @@ function loadUrl(newLocation)
 
 	<div class="main-nav">
 		<ul id="language">
-			<li><a href="/">Home</a></li>
+			<li><a href="./">Home</a></li>
 			<li id="last-child"><a class="languageSwitch" href="http://es.benefits.gov/benefits/benefit-finder/#benefits&amp;qc=cat_1">En Español</a></li>
 		</ul>
 		
 		<ul class="nav-menu sf-js-enabled sf-shadow">
 			<?php if(empty($user['email'])) { ?>
-			<li id="last-child"><a href="/login" id="last-child" class="login_button">MyGov Login</a></li>
+			<li id="last-child"><a href="./login" id="last-child" class="login_button">MyGov Login</a></li>
 			<?php } else { ?>
 				
 				<li id="last-child"><a href="#"><?php echo $user['first_name'] . ' ' . $user['last_name']; ?></a></li>
-				<li id="last-child"><a href="/logout" id="last-child" class="login_button">Log Out</a></li>
+				<li id="last-child"><a href="./logout" id="last-child" class="login_button">Log Out</a></li>
 				
 			<?php }?>
 		</ul>		
@@ -71,31 +71,31 @@ function loadUrl(newLocation)
 
 		 
 	<ul class="nav-menu sf-js-enabled sf-shadow">
-		<li class="current"><a class="navId51 sf-with-ul" href="/benefits">Benefits<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-			<li><a class="navId51" href="/benefits/benefit-finder">Benefit Finder</a></li>
-			<li><a class="navId51" href="/benefits/browse-by-state">By State</a></li>
-			<li><a class="navId51" href="/benefits/browse-by-category">By Category</a></li>
-			<li><a class="navId51" href="/benefits/browse-by-federal-agency">By Federal Agency</a></li>
-			<li><a class="navId51" href="/benefits/other-resources">Other Resources</a></li></ul></li>
-		<li><a class="navId66 sf-with-ul" href="/news">Newsroom<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-			<li><a class="navId66" href="/news/news-articles">News Articles</a></li>
-			<li><a class="navId66" href="/news/newsletter">eNewsletter</a></li>
-			<li><a class="navId66" href="/news/press-releases">Press Releases</a></li></ul></li>
-		<li><a class="navId74 sf-with-ul" href="/advocates">Advocates<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-			<li><a class="navId74" href="/advocates/community-advocates">Community Advocates</a></li>
-			<li><a class="navId74" href="/advocates/partners">Partners</a></li></ul></li>
-		<li><a class="navId64 sf-with-ul" href="/about-us">About<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-			<li><a class="navId64" href="/about-us/overview">Overview</a></li>
-			<li><a class="navId64" href="/about-us/link-to-us">Link to Us</a></li></ul></li>
-		<li><a class="navId79 sf-with-ul" href="/help">Help<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-			<li><a class="navId79" href="/help/faqs">FAQs</a></li>
-			<li><a class="navId79" href="/email/contact-us">Contact Us</a></li></ul></li>
+		<li class="current"><a class="navId51 sf-with-ul" href="./benefits">Benefits<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId51" href="./benefits/benefit-finder">Benefit Finder</a></li>
+			<li><a class="navId51" href="./benefits/browse-by-state">By State</a></li>
+			<li><a class="navId51" href="./benefits/browse-by-category">By Category</a></li>
+			<li><a class="navId51" href="./benefits/browse-by-federal-agency">By Federal Agency</a></li>
+			<li><a class="navId51" href="./benefits/other-resources">Other Resources</a></li></ul></li>
+		<li><a class="navId66 sf-with-ul" href="./news">Newsroom<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId66" href="./news/news-articles">News Articles</a></li>
+			<li><a class="navId66" href="./news/newsletter">eNewsletter</a></li>
+			<li><a class="navId66" href="./news/press-releases">Press Releases</a></li></ul></li>
+		<li><a class="navId74 sf-with-ul" href="./advocates">Advocates<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId74" href="./advocates/community-advocates">Community Advocates</a></li>
+			<li><a class="navId74" href="./advocates/partners">Partners</a></li></ul></li>
+		<li><a class="navId64 sf-with-ul" href="./about-us">About<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId64" href="./about-us/overview">Overview</a></li>
+			<li><a class="navId64" href="./about-us/link-to-us">Link to Us</a></li></ul></li>
+		<li><a class="navId79 sf-with-ul" href="./help">Help<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
+			<li><a class="navId79" href="./help/faqs">FAQs</a></li>
+			<li><a class="navId79" href="./email/contact-us">Contact Us</a></li></ul></li>
 	</ul>
 	</div>
     
     <div class="header">
 		<span class="benefits-logo">
-			<a href="/"><img title="Benefits.gov - Your Path to Government Benefits" alt="Benefits.gov - Your Path to Government Benefits" src="./assets/benefits-logo.jpg" class="benefits-logo-img"></a>
+			<a href="./"><img title="Benefits.gov - Your Path to Government Benefits" alt="Benefits.gov - Your Path to Government Benefits" src="./assets/benefits-logo.jpg" class="benefits-logo-img"></a>
 		</span>
 		<span class="site-search">
 
