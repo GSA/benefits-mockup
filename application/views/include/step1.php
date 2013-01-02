@@ -67,7 +67,19 @@
 			</h2><br>
 			<p>
 				<i>All of the questions in this section must be answered in order to obtain an initial list of benefit results and to move on to the next sections of the Benefit Finder. Providing additional information will further increase the accuracy of your results. When you are done with this section, click "Next." Please answer the questions as accurately as possible for the best results. After this section is complete, you may click the "View Benefit Results" tab at any time to see a listing of programs that you may be eligible to receive.</i>
-			</p><button id="resetButton" style="width:160px;" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon" role="button" aria-disabled="false"><span class="ui-button-text">Clear All Your Answers</span></button>
+			</p>
+			
+			<p style="border : 1px solid #F3B94C; padding : .5em">
+				<img src="./assets/mygov-logo.png" alt="MyGov Logo" style="display:block" />
+				<?php if(empty($user['email'])) : ?>
+				You can use your MyGov account to help you fill out this form and keep track of your benefits afterward. If you already have a MyGov account, just <a href="./login">log in</a> to make Benefits.gov even better.
+				<?php else: ?>
+				Since you're logged in to your MyGov account some of these fields may be filled in automatically. Those fields will by highlighted indicating they were filled in with MyGov, but you can still edit them if needed.
+				<?php endif; ?>	
+			</p>
+			
+			<!--
+			<button id="resetButton" style="width:160px;" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon" role="button" aria-disabled="false"><span class="ui-button-text">Clear All Your Answers</span></button> -->
 			<div id="cat_1_2225" class="ui-question">
 				<div id="qid_2225" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">1</strong>&nbsp;&nbsp;&nbsp;What type of benefits are you looking for?</span></span>

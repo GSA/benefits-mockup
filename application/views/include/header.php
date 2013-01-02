@@ -55,7 +55,7 @@ function loadUrl(newLocation)
 		
 		<ul class="nav-menu sf-js-enabled sf-shadow">
 			<?php if(empty($user['email'])) { ?>
-			<li id="last-child"><a href="./login" id="last-child" class="login_button">MyGov Login</a></li>
+			<li id="last-child"><a href="./login?origin=<?php echo current_url(); ?>" id="last-child" class="login_button">MyGov Login</a></li>
 			<?php } else { ?>
 				
 				<li id="last-child"><a href="#"><?php echo $user['first_name'] . ' ' . $user['last_name']; ?></a></li>
