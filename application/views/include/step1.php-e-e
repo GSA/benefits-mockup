@@ -72,7 +72,7 @@
 			<p style="border : 1px solid #F3B94C; padding : .5em">
 				<img src="./assets/mygov-logo.png" alt="MyGov Logo" style="display:block" />
 				<?php if(empty($user['email'])) : ?>
-				You can use your MyGov account to help you fill out this form and keep track of your benefits afterward. If you already have a MyGov account, just <a href="./login">log in</a> to make Benefits.gov even better.
+				You can use your MyGov account to help you fill out this form and keep track of your benefits afterward. If you already have a MyGov account, just <a href="./login?origin=<?php echo current_url(); ?>">log in</a> to make Benefits.gov even better.
 				<?php else: ?>
 				Since you're logged in to your MyGov account some of these fields may be filled in automatically. Those fields will by highlighted indicating they were filled in with MyGov, but you can still edit them if needed.
 				<?php endif; ?>	
