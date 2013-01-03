@@ -80,7 +80,7 @@ class Mockup extends CI_Controller {
 		
 		$opts = array_merge_recursive($_default_opts['options'], $opts);
 		$context = stream_context_create($opts);
-		$url = 'https://staging.my.usa.gov/api/tasks';
+		$url = config_item('mygov_server') . '/api/tasks';
 
 		$save = json_decode(file_get_contents($url,false,$context));
 

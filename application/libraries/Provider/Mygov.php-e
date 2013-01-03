@@ -20,12 +20,12 @@ class OAuth2_Provider_Mygov extends OAuth2_Provider
 
 	public function url_authorize()
 	{
-		return 'https://staging.my.usa.gov/oauth/authorize';
+		return config_item('mygov_server') . '/oauth/authorize';
 	}
 
 	public function url_access_token()
 	{
-		return 'https://staging.my.usa.gov/oauth/authorize';
+		return config_item('mygov_server') . '/oauth/authorize';
 	}
 
 	public function get_user_info(OAuth2_Token_Access $token)
@@ -47,7 +47,7 @@ class OAuth2_Provider_Mygov extends OAuth2_Provider
 		
 		$opts = array_merge_recursive($_default_opts['options'], $opts);
 		$context = stream_context_create($opts);
-		$url = 'https://staging.my.usa.gov/api/profile';
+		$url = config_item('mygov_server') . '/api/profile';
 
 		$user = json_decode(file_get_contents($url,false,$context));
 		$user = $user->user;

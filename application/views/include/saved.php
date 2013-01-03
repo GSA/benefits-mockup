@@ -6,10 +6,10 @@
 	
 <div class="saved-results">
 
-<h2>Your benefits have been saved to your <a href="https://staging.my.usa.gov/dashboard">MyGov Dashboard</a>!</h2>
+<h2>Your benefits have been saved to your <a href="<?php echo config_item('mygov_server_public') ?>/dashboard">MyGov Dashboard</a>!</h2>
 
 <p>
-	The eligible benefits you selected are now available in your <a href="https://staging.my.usa.gov/tasks/<?php echo $saved->task->id ?>">MyGov Tasks</a> so you can keep track of which ones you've applied for.
+	The eligible benefits you selected are now available in your <a href="<?php echo config_item('mygov_server_public') ?>/tasks/<?php echo $saved->task->id ?>">MyGov Tasks</a> so you can keep track of which ones you've applied for.
 </p>
 
 </div>

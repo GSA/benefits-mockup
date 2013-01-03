@@ -445,7 +445,7 @@
 				</div>
 			</div>
 			<div class="ui-nav-buttons">
-				<button id="cat_1_nextButton" class="nextButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon" style="background-image:none;width:100px;" role="button" aria-disabled="false" onclick="window.location.href = 'step2'"><span class="ui-button-text">Next</span></button>
+				<button id="cat_1_nextButton" class="nextButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon" style="background-image:none;width:100px;" role="button" aria-disabled="false" onclick="window.location.href = './benefits/benefit-finder/step2'"><span class="ui-button-text">Next</span></button>
 			</div>
 		</div>
 		<div id="cat_2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"></div>
