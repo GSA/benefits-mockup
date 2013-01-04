@@ -1,13 +1,3 @@
-	<li class="mainTabs ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
-		<a href="#benefits">Answer Questions</a>
-	</li>
-	<li class="mainTabs ui-state-default ui-corner-top">
-		<a href="#results">View Benefit Results</a>
-	</li>
-	<li class="mainTabs ui-state-default ui-corner-top">
-		<a href="#mybenefits">Your Favorites</a>
-	</li>
-</ul>
 <div id="benefits" class="ui-tabs-panel ui-widget-content" style="position: relative;">
 	<div id="cth" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
 		<ul id="ctl" class="ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
