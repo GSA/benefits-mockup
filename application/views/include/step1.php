@@ -418,7 +418,7 @@
 			<div id="cat_1_2021" class="ui-question">
 				<div id="qid_2021" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">9</strong>&nbsp;&nbsp;&nbsp;Are you currently married?</span><span class="ui-icon-question-help" id="cat_1_qh_2021"></span></span>
-					<?php if (!empty($user['marital_status'])):?>	
+					<?php if (!empty($user['marital_status']) && $user['marital_status'] !== 'domestic_partnership'):?>	
 					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
 					<?php endif;?>					
 				</div>
@@ -431,7 +431,7 @@
 					</p>
 				</div><button class="ui-clear-question ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false" style="display: block; background-color: rgb(255, 255, 255); border: medium none;"><span class="ui-button-text">Reset Answer(s)</span></button>
 				<div class="ui-question-answer">
-					<input type="radio" id="763_y" name="2021_name" value="1" <?php if(!empty($user['marital_status']) && $user['marital_status'] == 1) echo 'checked="checked"'?>><label for="763_y">Yes</label><input type="radio" id="763_n" name="2021_name" value="0" <?php if(!empty($user['marital_status']) && $user['marital_status'] == 0) echo 'checked="checked"'?>><label for="763_n">No</label>
+					<input type="radio" id="763_y" name="2021_name" value="1" <?php if(!empty($user['marital_status']) && $user['marital_status'] == 'married') echo 'checked="checked"'?>><label for="763_y">Yes</label><input type="radio" id="763_n" name="2021_name" value="0" <?php if(!empty($user['marital_status']) && $user['marital_status'] !== 'married' &&  $user['marital_status'] !== 'domestic_partnership') echo 'checked="checked"'?>><label for="763_n">No</label>
 				</div>
 			</div>
 			<div class="ui-nav-buttons">
