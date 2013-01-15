@@ -12,6 +12,10 @@
 class OAuth2_Provider_Mygov extends OAuth2_Provider
 {
 
+
+	protected $scope = array('profile tasks notifications');
+
+
 	/**
 	 * @var  string  the method to use when requesting tokens
 	 */
