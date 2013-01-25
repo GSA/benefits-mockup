@@ -8,15 +8,15 @@
 <base href="<?php echo config_item('app_url')?>" />
 <?php endif;?>
 
-<link type="image/x-icon" href="./static-dev/benefits/en/images/benefits.ico" rel="shortcut icon">
-<link href="./static-dev/benefits/en/images/apple-touch-icon.png" rel="apple-touch-icon">
+<link type="image/x-icon" href="./assets/benefits.ico" rel="shortcut icon">
+<link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
 
 <link type="text/css" href="./assets/css.css" rel="stylesheet">
 
-<link media="print" type="text/css" href="./static-dev/benefits/en/css/print.css" rel="stylesheet">
+<link media="print" type="text/css" href="./assets/print.css" rel="stylesheet">
 <!--[if IE 7]><link rel="stylesheet" href="./static-dev/benefits/en/css/ie7.css" type="text/css" /><![endif]-->
 
-<script type="text/javascript" async="" src="https://www.google-analytics.com/ga.js"></script><script src="/static-dev/common/js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" async="" src="https://www.google-analytics.com/ga.js"></script><script src="./assets/jquery.min.js" type="text/javascript"></script>
 <script src="./assets/benefits-1.0.js" type="text/javascript"></script>
 
 <meta content="EgJ6rkU0KZuXB19VI_x8s-K4_ler9CVs4hi0PQwx5ic" name="google-site-verification">
@@ -31,7 +31,7 @@
 <script type="text/javascript" src="./assets/jquery.questionnaire-1.0.js"></script>
 <link type="text/css" href="./assets/questionnaire.css" rel="stylesheet">
 
-<script src="/analytics.js" type="text/javascript"></script>
+<script src="./assets/analytics.js" type="text/javascript"></script>
 <script type="text/javascript" src="https://search.usa.gov/javascripts/stats.js"></script></head>
 
 <script type="text/javascript">

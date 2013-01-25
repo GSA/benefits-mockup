@@ -78,9 +78,9 @@
 <script src="http://search.usa.gov/javascripts/jquery/jquery.bgiframe.min.js" type="text/javascript"></script>
 <script src="http://search.usa.gov/javascripts/jquery/jquery.autocomplete.min.js" type="text/javascript"></script>
 <script src="http://search.usa.gov/javascripts/sayt.js" type="text/javascript"></script>
-<script src="/static-dev/benefits/common/js/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
-<script src="/static-dev/benefits/common/js/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
-<script src="/static-dev/benefits/common/js/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<script src="./assets/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
+<script src="./assets/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="./assets/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
 	
 
 <div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div id="fancybox-bg-n" class="fancybox-bg"></div><div id="fancybox-bg-ne" class="fancybox-bg"></div><div id="fancybox-bg-e" class="fancybox-bg"></div><div id="fancybox-bg-se" class="fancybox-bg"></div><div id="fancybox-bg-s" class="fancybox-bg"></div><div id="fancybox-bg-sw" class="fancybox-bg"></div><div id="fancybox-bg-w" class="fancybox-bg"></div><div id="fancybox-bg-nw" class="fancybox-bg"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a id="fancybox-left" href="javascript:;"><span id="fancybox-left-ico" class="fancy-ico"></span></a><a id="fancybox-right" href="javascript:;"><span id="fancybox-right-ico" class="fancy-ico"></span></a></div></div><div class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible" id="ui-datepicker-div"></div></body></html>
