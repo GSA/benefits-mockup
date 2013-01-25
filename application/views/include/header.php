@@ -99,7 +99,7 @@ function loadUrl(newLocation)
 		</span>
 		<span class="site-search">
 
-        	  <form onsubmit="_gaq.push(['_linkByPost', this]);" name="search" method="get" id="search_form" action="http://search.usa.gov/search" accept-charset="UTF-8"><div style="margin:0;padding:0;display:inline"><input type="hidden" value="?" name="utf8"></div>
+        	  <form onsubmit="_gaq.push(['_linkByPost', this]);" name="search" method="get" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8"><div style="margin:0;padding:0;display:inline"><input type="hidden" value="?" name="utf8"></div>
             <input type="hidden" value="govbenefits" name="affiliate" id="affiliate">
         	<span class="magnifying-glass"><img title="This image depicts a magnifying glass for searching" alt="This image depicts a magnifying glass for searching" src="./assets/magnifying-glass.gif" class="magnifying-glass-img"></span>
 			<span class="search">
@@ -109,7 +109,7 @@ function loadUrl(newLocation)
             <span class="search-submit">
             	<a href="javascript: document.search.submit();" class="button"><span>Search</span></a>
 			</span>
-<div class="advanced-search"><a onclick="_gaq.push(['_link', 'http://search.usa.gov/search/advanced?affiliate=govbenefits&amp;locale=en&amp;m=false&amp;filter=moderate&amp;page=1&amp;per_page=10&amp;query=']); return false;" href="http://search.usa.gov/search/advanced?affiliate=govbenefits&amp;locale=en&amp;m=false&amp;filter=moderate&amp;page=1&amp;per_page=10&amp;query=">Advanced Search</a></div>
+<div class="advanced-search"><a onclick="_gaq.push(['_link', 'https://search.usa.gov/search/advanced?affiliate=govbenefits&amp;locale=en&amp;m=false&amp;filter=moderate&amp;page=1&amp;per_page=10&amp;query=']); return false;" href="https://search.usa.gov/search/advanced?affiliate=govbenefits&amp;locale=en&amp;m=false&amp;filter=moderate&amp;page=1&amp;per_page=10&amp;query=">Advanced Search</a></div>
 
             </form>  
 		</span>

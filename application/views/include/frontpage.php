@@ -89,22 +89,22 @@
 				<table style="margin: 0 auto;" class="icons">
 <tbody><tr>
 			<td style="border: none;">
-				<a title="Facebook Logo" alt="Facebook Logo" target="_blank" href="http://www.facebook.com/benefitsGOV"><img src="http://www.benefits.gov/static/benefits/en/images/facebook44.png"></a>
+				<a title="Facebook Logo" alt="Facebook Logo" target="_blank" href="http://www.facebook.com/benefitsGOV"><img src="./assets/facebook44.png"></a>
 				<div style="text-align: center; font-size: 10px;">Facebook</div>
 			</td>
 			<td style="border: none;">
-				<a title="Twitter Logo" alt="Twitter Logo" target="_blank" href="http://twitter.com/benefitsGOV"><img src="http://www.benefits.gov/static/benefits/en/images/twitter44.png"></a>
+				<a title="Twitter Logo" alt="Twitter Logo" target="_blank" href="http://twitter.com/benefitsGOV"><img src="./assets/twitter44.png"></a>
 				<div style="text-align: center; font-size: 10px;">Twitter</div>
 			</td>
 
 			
 			<td style="border: none;">
-				<a title="YouTube" alt="YouTube Logo" target="_blank" href="http://www.youtube.com/benefitsGOV"><img src="http://www.benefits.gov/static/benefits/en/images/youtube.png"></a>
+				<a title="YouTube" alt="YouTube Logo" target="_blank" href="http://www.youtube.com/benefitsGOV"><img src="./assets/youtube.png"></a>
 				<div style="text-align: center; font-size: 10px;">YouTube</div>
 			</td>
 		
 			<td style="border: none;">
-				<a title="Newsletter" alt="Compass eNewsletter logo" target="_blank" href="http://www.benefits.gov/news/newsletter"><img src="http://www.benefits.gov/static/benefits/en/images/newsletter.png"></a>
+				<a title="Newsletter" alt="Compass eNewsletter logo" target="_blank" href="https://www.benefits.gov/news/newsletter"><img src="./assets/newsletter.png"></a>
 				<div style="text-align: center; font-size: 10px;">Newsletter</div>
 			</td>
 			

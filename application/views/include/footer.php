@@ -42,10 +42,10 @@
 
 	        <div class="footer-right">
         	<ul id="logos">
-            	<li><a target="_blank" href="http://www.govloans.gov"><img title="This link opens the GovLoans.gov website in a new browser window." alt="This link opens the GovLoans.gov website in a new browser window." src="http://www.benefits.gov/static/benefits/en/images/govloans-footer-bw.gif"></a></li>
-                <li><a target="_blank" href="http://www.usa.gov"><img title="This link opens the USAGov.gov website in a new browser window." alt="This link opens the USAGov.gov website in a new browser window." src="http://www.benefits.gov/static/benefits/en/images/usaGov-footer-bw.gif"></a></li>
-                <li><a target="_blank" href="http://www.whitehouse.gov/omb/e-gov"><img title="This link opens the eGov.gov website in a new browser window." alt="This link opens the eGov.gov website in a new browser window." src="http://www.benefits.gov/static/benefits/en/images/eGov-footer-bw.gif"></a></li>
-                <li><a target="_blank" href="http://www.whitehouse.gov"><img title="This link opens the Whitehouse.gov website in a new browser window." alt="This link opens the Whitehouse.gov website in a new browser window." src="http://www.benefits.gov/static/benefits/en/images/whitehouse-footer-bw.gif"></a></li>
+            	<li><a target="_blank" href="http://www.govloans.gov"><img title="This link opens the GovLoans.gov website in a new browser window." alt="This link opens the GovLoans.gov website in a new browser window." src="./assets/govloans-footer-bw.gif"></a></li>
+                <li><a target="_blank" href="http://www.usa.gov"><img title="This link opens the USAGov.gov website in a new browser window." alt="This link opens the USAGov.gov website in a new browser window." src="./assets/usaGov-footer-bw.gif"></a></li>
+                <li><a target="_blank" href="http://www.whitehouse.gov/omb/e-gov"><img title="This link opens the eGov.gov website in a new browser window." alt="This link opens the eGov.gov website in a new browser window." src="./assets/eGov-footer-bw.gif"></a></li>
+                <li><a target="_blank" href="http://www.whitehouse.gov"><img title="This link opens the Whitehouse.gov website in a new browser window." alt="This link opens the Whitehouse.gov website in a new browser window." src="./assets/whitehouse-footer-bw.gif"></a></li>
             </ul>
             <ul id="links">
             	<li><a href="./privacy-and-terms-of-use/">Privacy &amp; Terms of Use</a></li>
@@ -70,14 +70,14 @@
     var aid = "govbenefits";
     var script = document.createElement('script');
     script.type = "text/javascript";
-    script.src = "http://search.usa.gov/javascripts/stats.js";
+    script.src = "https://search.usa.gov/javascripts/stats.js";
     document.getElementsByTagName("head")[0].appendChild(script);
   //]]&gt;
 </script>
 
-<script src="http://search.usa.gov/javascripts/jquery/jquery.bgiframe.min.js" type="text/javascript"></script>
-<script src="http://search.usa.gov/javascripts/jquery/jquery.autocomplete.min.js" type="text/javascript"></script>
-<script src="http://search.usa.gov/javascripts/sayt.js" type="text/javascript"></script>
+<script src="https://search.usa.gov/javascripts/jquery/jquery.bgiframe.min.js" type="text/javascript"></script>
+<script src="https://search.usa.gov/javascripts/jquery/jquery.autocomplete.min.js" type="text/javascript"></script>
+<script src="https://search.usa.gov/javascripts/sayt.js" type="text/javascript"></script>
 <script src="./assets/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
 <script src="./assets/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
 <script src="./assets/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
