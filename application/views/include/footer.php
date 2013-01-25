@@ -52,7 +52,7 @@
                 <li id="last-child"><span class="looks-like-a-link">Follow Us</span>
 
 			<div class="social-icons-footer">
-			<a title="Facebook Logo" alt="Facebook Logo" target="_blank" href="http://www.facebook.com/benefitsGOV"><img src="/static/benefits/en/images/facebook24.png"></a><a title="Twitter Logo" alt="Twitter Logo" target="_blank" href="http://twitter.com/benefitsGOV"><img src="/static/benefits/en/images/twitter24.png"></a>
+			<a title="Facebook Logo" alt="Facebook Logo" target="_blank" href="http://www.facebook.com/benefitsGOV"><img src="./assets/facebook24.png"></a><a title="Twitter Logo" alt="Twitter Logo" target="_blank" href="http://twitter.com/benefitsGOV"><img src="./assets/twitter24.png"></a>
 			</div>
 
 </li>

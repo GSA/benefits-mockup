@@ -13,7 +13,7 @@
             <div class="testify">
             	<span class="testimony"></span>
             	<span class="testifier"></span>
-            	<img class="transition" src="/static/benefits/en/images/1px.gif">
+            	<img class="transition" src="./assets/1px.gif">
 
             </div>
         </div>
@@ -22,7 +22,7 @@
           	<a href="./ExternalLinkPageFlow/ExternalLinkPageFlowController.jpf?url=http://www.careeronestop.org/reemployment/" target="_blank">
 
 
-<img style="position:relative; top:10px; left: 10px; padding-bottom:4px;" title="The official CareerOneStop logo - Lost your job? Visit CareerOneStop Worker ReEmployment. Click here to proceed to CareeerOneStop site." alt="The official CareerOneStop logo - Lost your job? Visit CareerOneStop Worker ReEmployment. Click here to proceed to CareeerOneStop site." src="/static/benefits/en/images/careeronestop-home-banner.png">
+<img style="position:relative; top:10px; left: 10px; padding-bottom:4px;" title="The official CareerOneStop logo - Lost your job? Visit CareerOneStop Worker ReEmployment. Click here to proceed to CareeerOneStop site." alt="The official CareerOneStop logo - Lost your job? Visit CareerOneStop Worker ReEmployment. Click here to proceed to CareeerOneStop site." src="./assets/careeronestop-home-banner.png">
 
 
 </a>                <div class="news-header"><h1>Newsroom</h1></div>
@@ -78,7 +78,7 @@
 	                <span class="email-subscription">
 	                    <form onsubmit="quickSubscribe(); return false;" action="" name="govdelivery">
 	                    <input type="hidden" value="1" name="folder">
-	                    <span class="envelope"><img src="/static/benefits/en/images/envelop.gif" class="envelope-img"></span>
+	                    <span class="envelope"><img src="./assets/envelop.gif" class="envelope-img"></span>
 	                    <span class="search"><input type="text" name="email" value="Enter email to receive updates" onfocus="this.value=''" id="email" class="email-subscription-input"></span>
 	                    <span class="search-submit">
 	                            <a href="javascript: quickSubscribe();" class="button"><span class="subscribe-btn-only">Subscribe</span></a>
@@ -124,7 +124,7 @@
 	    		<div class="bottom-pane-window">
 	            	<h1>Have you Been Affected by a Disaster?</h1>
 	                <div class="bullet2">Go to <a target="_blank" href="http://www.disasterassistance.gov">DisasterAssistance.gov</a> to locate and apply for disaster relief.</div>
-	                <a href="http://www.disasterassistance.gov"><img title="DisasterAssistance.gov - Access to Disaster Help and Resources." alt="DisasterAssistance.gov - Access to Disaster Help and Resources." src="/static/benefits/en/images/daip-logo.gif" class="daip-logo-img"></a>
+	                <a href="http://www.disasterassistance.gov"><img title="DisasterAssistance.gov - Access to Disaster Help and Resources." alt="DisasterAssistance.gov - Access to Disaster Help and Resources." src="./assets/daip-logo.gif" class="daip-logo-img"></a>
 	                <a class="seperate-link" href="http://www.disasterassistance.gov">Disaster Assistance</a>
 	            </div>
             </div>
