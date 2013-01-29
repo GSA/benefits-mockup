@@ -1,14 +1,30 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 
-$config['mygov_oauth_id'] = '**********';
-$config['mygov_oauth_secret'] = '**********';
+// These three values first needs to be created/generated on the MyGov platform
+$config['mygov_oauth_id'] = '**************';
+$config['mygov_oauth_secret'] = '**************';
+$config['mygov_oauth_redirect'] =  $config['app_url'] . '/auth/session/mygov';
 
 
-$config['app_dir'] = ''; // eg '/benefits'
+// This can be left blank and unchanged if this app is hosted at the root of the domain
+$config['app_dir'] = ''; // eg '/benefits' 
 $config['app_url'] = 'http://' . $_SERVER['SERVER_NAME'] . $config['app_dir'];
 
-$config['mygov_oauth_redirect'] =  $config['app_url'] . '/auth/session/mygov';
+
+/*
+MyGov Server URLs
+
+In most cases these two URLs will be the same, but if you're running a staging server with 
+HTTP Auth, then you'd include the username/password credentials in the 'mygov_server' 
+value, but not in the 'mygov_server_public' value. 
+*/
+
+// as a staging server this could be https://username:password@staging.devserver.dev
+$config['mygov_server'] = 'https://my.usa.gov'; 
+
+// as a staging server this could be https://staging.devserver.dev
+$config['mygov_server_public'] = 'https://my.usa.gov';
 
 
 /*
