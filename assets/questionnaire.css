@@ -48,14 +48,14 @@ font-size : 1.3em;
 ----------------------------------*/
 
 /* states and images */
-.ui-icon { width: 16px; height: 16px; background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_0078ae_256x240.png);overflow:hidden;text-indent:-99999px; }
-.ui-widget-content .ui-icon {background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_0078ae_256x240.png); }
-.ui-widget-header .ui-icon {background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_d8e7f3_256x240.png); }
-.ui-state-default .ui-icon { background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_e0fdff_256x240.png); }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_056b93_256x240.png); }
-.ui-state-active .ui-icon {background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_2b78c7_256x240.png); }
-.ui-state-highlight .ui-icon {background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_f7a50d_256x240.png); }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icons_fcd113_256x240.png); }
+.ui-icon { width: 16px; height: 16px; background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_0078ae_256x240.png);overflow:hidden;text-indent:-99999px; }
+.ui-widget-content .ui-icon {background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_0078ae_256x240.png); }
+.ui-widget-header .ui-icon {background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_d8e7f3_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_e0fdff_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_056b93_256x240.png); }
+.ui-state-active .ui-icon {background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_2b78c7_256x240.png); }
+.ui-state-highlight .ui-icon {background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_f7a50d_256x240.png); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icons_fcd113_256x240.png); }
 
 /* positioning */
 .ui-icon-carat-1-n { background-position: 0 0; }
@@ -234,7 +234,7 @@ font-size : 1.3em;
 .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
 .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
 .ui-widget button.ui-button-review-answers{
-	background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/ui-button-review-answers.png);
+	background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/ui-button-review-answers.png);
 	width:190px;
   height:35px;
   background-color : #fff;
@@ -258,8 +258,8 @@ font-size : 1.3em;
 .ui-corner-all { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
 /* Overlays */
-.ui-widget-overlay { background: #aaaaaa url(https://www.benefits.gov/static-dev/benefits/common/images/ui-bg_flat_75_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); height:100%; width:100%; position:absolute; top:0; left:0;}
-.ui-widget-shadow { margin: 5px 0 0 5px; padding: 0px; background: #999999 url(https://www.benefits.gov/static-dev/benefits/common/images/ui-bg_flat_55_999999_40x100.png) 50% 50% repeat-x; opacity: .45;filter:Alpha(Opacity=45); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }/*
+.ui-widget-overlay { background: #aaaaaa url(http://www.benefits.gov/static-dev/benefits/common/images/ui-bg_flat_75_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); height:100%; width:100%; position:absolute; top:0; left:0;}
+.ui-widget-shadow { margin: 5px 0 0 5px; padding: 0px; background: #999999 url(http://www.benefits.gov/static-dev/benefits/common/images/ui-bg_flat_55_999999_40x100.png) 50% 50% repeat-x; opacity: .45;filter:Alpha(Opacity=45); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }/*
 /* Accordion
 ----------------------------------*/
 .ui-accordion { width: 100%; }
@@ -414,7 +414,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     height: 200px; /*must have*/
 }/* Dialog
 ----------------------------------*/
-.ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: hidden; background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/full-bg.png); background-repeat:repeat-x;}
+.ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: hidden; background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/full-bg.png); background-repeat:repeat-x;}
 .ui-dialog .ui-dialog-titlebar { padding: .5em 1em .3em; position: relative;  }
 .ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .2em 0; color:#FFF;} 
 .ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
@@ -469,7 +469,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; width:190px;text-align:center;} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
-.ui-tabs .ui-tabs-panel { display: block; border-width: 0; background-color: #A0CCF7; min-height:550px; width:715px;float:left; background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/full-bg.png); background-position:0 0; background-repeat:repeat-x; padding-bottom:20px;}
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; background-color: #A0CCF7; min-height:550px; width:715px;float:left; background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/full-bg.png); background-position:0 0; background-repeat:repeat-x; padding-bottom:20px;}
 *html .ui-tabs .ui-tabs-panel{width:15px;}
 .ui-tabs .ui-tabs-hide { display: none !important; }
 #cth {width:715px;}
@@ -478,12 +478,12 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 *html #cth .ui-tabs-panel{width:470px;}
 #mtid{background:url("/static-dev/benefits/common/images/full-bg.png") repeat-x scroll 0 28px #A0CCF7; width:930px;min-height:600px;margin:auto;float:left; width:930px;padding:0;}
 .mtabs{background-color:#FFF;}
-.ui-benefits-count{ float:right; width:215px; background-color:#A0CCF7; min-height:200px;position:relative;  background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/full-bg.png); background-position:0 0; background-repeat:repeat-x;padding-bottom:20px;}
-.ui-benefits-count-bg{/*background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/white-sun-bg.png);*/ background-repeat:no-repeat; background-position:bottom;min-height:550px;}
+.ui-benefits-count{ float:right; width:215px; background-color:#A0CCF7; min-height:200px;position:relative;  background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/full-bg.png); background-position:0 0; background-repeat:repeat-x;padding-bottom:20px;}
+.ui-benefits-count-bg{/*background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/white-sun-bg.png);*/ background-repeat:no-repeat; background-position:bottom;min-height:550px;}
 .ui-benefit-category{ float:left; width:190px;font-size:12px;color:#508FCC;border-bottom:1px solid #ECEDF3;padding:10px; background-color:#FFFFFF; font-family:Arial,Helvetica,sans-serif; font-size:11px;}
 .ui-benefit-category div{float:right;color:#000000;font-weight:bold;}
 #bcth{background-color:#FFFF;float:left;position:relative;width:210px;}
-.ui-benefit-total {background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/benefitCounterBG.png); background-repeat:no-repeat; width:210px; height:50px;color:#FFFFFF;font-size:12px;margin:7px 0 0 -3px; padding:2px 0; text-align:center;position:relative;}
+.ui-benefit-total {background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/benefitCounterBG.png); background-repeat:no-repeat; width:210px; height:50px;color:#FFFFFF;font-size:12px;margin:7px 0 0 -3px; padding:2px 0; text-align:center;position:relative;}
 #bc-value{color:#F3E421; font-size:20px;text-align:center;font-weight:bold;}
 #results{width:715px;}
 *html #results{width:680px;}
@@ -502,14 +502,14 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-benefit-full .ui-full-description{margin:0px 0 0 20px; }
 .ui-benefit-full .ui-title{color:#44698E; font-size:16px; margin:15px 0 0 20px;font-weight:bold;font-family:Georgia, "Times New Roman", Times, serif;}
 .ui-benefit-action { background-color:#E7E6D8; text-align:right;padding:3px;}
-.ui-add-button{text-decoration:none; background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/add_button.png); background-position:0 0; background-repeat:no-repeat; padding:0 0 0 20px; }
-.ui-remove-button{text-decoration:none; background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/remove_button.png); background-position:0 0; background-repeat:no-repeat; padding:0 0 0 20px; }
+.ui-add-button{text-decoration:none; background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/add_button.png); background-position:0 0; background-repeat:no-repeat; padding:0 0 0 20px; }
+.ui-remove-button{text-decoration:none; background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/remove_button.png); background-position:0 0; background-repeat:no-repeat; padding:0 0 0 20px; }
 .ui-in-cart{border:1px solid #FDB427;}
 .ui-benefit-short.ui-in-cart .bottom, .ui-in-cart .ui-benefit-action{background-color:#FDB427}
 
 
-.ui-icon-printer{background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icon-printer.png); background-position:0 0; background-repeat:no-repeat; width:23px; height:18px; float:right; width:65px; padding-left:25px;font-size:12px;}
-.ui-icon-review-answers{background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/ui-icon-review-answers.png); background-position:0 0; background-repeat:no-repeat; width:100px; height:24px; float:right; padding-left:25px;font-size:12px;margin-top:-28px;line-height:11px;}
+.ui-icon-printer{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icon-printer.png); background-position:0 0; background-repeat:no-repeat; width:23px; height:18px; float:right; width:65px; padding-left:25px;font-size:12px;}
+.ui-icon-review-answers{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/ui-icon-review-answers.png); background-position:0 0; background-repeat:no-repeat; width:100px; height:24px; float:right; padding-left:25px;font-size:12px;margin-top:-28px;line-height:11px;}
 
 /*
 * jQuery UI CSS Framework
@@ -551,8 +551,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 .previousButton{float:left;}
 #resetButton{float:left; background-image:none; font-size:10px; margin-bottom:10px;}
-#ctl .ui-state-default{background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/questionGroupBG.png); background-repeat:no-repeat; width:150px;height:32px; border:none;background-color:#2B78C7;margin :5px 0px 5px 15px ; padding:3px 0px 2px 20px; line-height:25px;font-family:Georgia, "Times New Roman", Times, serif;}
-#ctl .ui-state-active{background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/questionGroupBG-active.png); background-repeat:no-repeat; width:150px;height:32px; border:none;background-color:#2B78C7; color:#01356A;}
+#ctl .ui-state-default{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/questionGroupBG.png); background-repeat:no-repeat; width:150px;height:32px; border:none;background-color:#2B78C7;margin :5px 0px 5px 15px ; padding:3px 0px 2px 20px; line-height:25px;font-family:Georgia, "Times New Roman", Times, serif;}
+#ctl .ui-state-active{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/questionGroupBG-active.png); background-repeat:no-repeat; width:150px;height:32px; border:none;background-color:#2B78C7; color:#01356A;}
 #ctl .ui-state-default a{font-size:12px;color:#FFFFFF;font-weight:bold;}
 #ctl .ui-state-active a{color:#01356A;}
 #ctl{width:185px;float:left;}
@@ -570,13 +570,13 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background-color:#D7D9DA; font-weight: normal/*{fwDefault}*/; color: #555555/*{fcDefault}*/; }
 .ui-question-answer .ui-state-active a{ color:#44698e; font-size:14px; font-weight:bold;}
 .ui-question-answer .ui-state-active .ui-icon-review-answers a{font-size:11px; font-wieght:normal;}
-.mainTabs.ui-state-default{background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/tab-bg.png); background-repeat:no-repeat; width:210px;height:auto; border:none; border:none;}
-.mainTabs.ui-state-active{background-image:url(https://www.benefits.gov/static-dev/benefits/common/images/tab-active-bg.png); background-repeat:no-repeat; width:210px;height:auto; border:none;}
+.mainTabs.ui-state-default{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/tab-bg.png); background-repeat:no-repeat; width:210px;height:auto; border:none; border:none;}
+.mainTabs.ui-state-active{background-image:url(http://www.benefits.gov/static-dev/benefits/common/images/tab-active-bg.png); background-repeat:no-repeat; width:210px;height:auto; border:none;}
 /* Interaction Cues
 ----------------------------------*/
-.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {margin-top:5px;border: 2px solid #fcd113; /*background-color: #f8da4e ;background: #f8da4e url(https://www.benefits.gov/static-dev/benefits/common/images/ui-bg_glass_55_f8da4e_1x400.png) 100% 100% repeat-x;*/ color: #915608; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {margin-top:5px;border: 2px solid #fcd113; /*background-color: #f8da4e ;background: #f8da4e url(http://www.benefits.gov/static-dev/benefits/common/images/ui-bg_glass_55_f8da4e_1x400.png) 100% 100% repeat-x;*/ color: #915608; }
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #915608; }
-.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #e14f1c url(https://www.benefits.gov/static-dev/benefits/common/images/ui-bg_gloss-wave_45_e14f1c_500x100.png) 50% top repeat-x; color: #ffffff; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #e14f1c url(http://www.benefits.gov/static-dev/benefits/common/images/ui-bg_gloss-wave_45_e14f1c_500x100.png) 50% top repeat-x; color: #ffffff; }
 .ui-state-error{float:left;padding:10px 0 0 10px;width:80%;}
 .ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #ffffff; }
 .ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #ffffff; }
