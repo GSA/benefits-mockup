@@ -1,15 +1,15 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 
+// This can be left blank and unchanged if this app is hosted at the root of the domain
+$config['app_dir'] = ''; // eg '/benefits' 
+$config['app_url'] = 'http://' . $_SERVER['SERVER_NAME'] . $config['app_dir'];
+
+
 // These three values first needs to be created/generated on the MyGov platform
 $config['mygov_oauth_id'] = '**************';
 $config['mygov_oauth_secret'] = '**************';
 $config['mygov_oauth_redirect'] =  $config['app_url'] . '/auth/session/mygov';
-
-
-// This can be left blank and unchanged if this app is hosted at the root of the domain
-$config['app_dir'] = ''; // eg '/benefits' 
-$config['app_url'] = 'http://' . $_SERVER['SERVER_NAME'] . $config['app_dir'];
 
 
 /*
