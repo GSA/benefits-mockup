@@ -46,7 +46,7 @@ function loadUrl(newLocation)
 <a class="skip-to-content" href="#skip-to-content">Skip to Content</a>
 
 <div class="site-border">
-  <div class="warning" style="border: 1px solid #F3B94C;">
+  <div class="warning" style="border: 1px solid #F3B94C; display: block;">
     <h4>This site is a mockup intended to demonstrate integration between Benefits.gov and MyUSA.  The results provided by this site are for demonstration purposes only, and may not reflect actual available benefits.</h4>
     <p>For federal benefits information, visit <a href="http://benefits.gov">Benefits.gov</a>.  For more information on MyUSA, visit <a href="https://my.usa.gov/">MyUSA</a>.
   </div>
