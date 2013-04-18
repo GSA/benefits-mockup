@@ -34,13 +34,6 @@ class OAuth2_Provider_Mygov extends OAuth2_Provider
 
 	public function get_user_info(OAuth2_Token_Access $token)
 	{
-		// $url = 'https://staging.my.usa.gov/api/profile?'.http_build_query(array(
-		// 	'access_token' => $token->access_token,
-		// ));
-// 
-		// $user = json_decode(file_get_contents($url));
-
-
 		$opts = array(
 			'http' => array(
 				'method' => 'GET',
@@ -54,12 +47,9 @@ class OAuth2_Provider_Mygov extends OAuth2_Provider
 		$url = config_item('mygov_server') . '/api/profile';
 
 		$user = json_decode(file_get_contents($url,false,$context));
-		$user = $user->user;
 			
-		
 		// Create a response from the request
 		return array(
-			'id' => $user->id,
 			'email' => $user->email,
 			'title' => $user->title,
 			'suffix' => $user->suffix,
