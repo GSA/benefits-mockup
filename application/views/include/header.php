@@ -57,11 +57,11 @@ function loadUrl(newLocation)
 		</ul>
 		
 		<ul class="nav-menu sf-js-enabled sf-shadow">
-			<?php if(empty($user['email'])) { ?>
+			<?php if(empty($user)) { ?>
 			<li id="last-child"><a href="./login?origin=<?php echo current_url(); ?>" id="last-child" class="login_button">MyGov Login</a></li>
 			<?php } else { ?>
 				
-				<li id="last-child"><a href="#"><?php echo $user['first_name'] . ' ' . $user['last_name']; ?></a></li>
+				<li id="last-child"><a href="#">Logged in with MyUSA</a></li>
 				<li id="last-child"><a href="./logout" id="last-child" class="login_button">Log Out</a></li>
 				
 			<?php }?>

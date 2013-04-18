@@ -60,11 +60,11 @@
 			</p>
 			
 			<p style="border : 1px solid #F3B94C; padding : .5em">
-				<img src="./assets/mygov-logo.png" alt="MyGov Logo" style="display:block" />
-				<?php if(empty($user['email'])) : ?>
-				You can use your MyGov account to help you fill out this form and keep track of your benefits afterward. If you already have a MyGov account, just <a href="./login?origin=<?php echo current_url(); ?>">log in</a> to make Benefits.gov even better.
+				<img src="./assets/mygov-logo.png" alt="MyUSA Logo" style="display:block" />
+				<?php if(empty($user)) : ?>
+				You can use your MyUSA account to help you fill out this form and keep track of your benefits afterward. If you already have a MyUSA account, just <a href="./login?origin=<?php echo current_url(); ?>">log in</a> to make Benefits.gov even better.
 				<?php else: ?>
-				Since you're logged in to your MyGov account some of these fields may be filled in automatically. Those fields will by highlighted indicating they were filled in with MyGov, but you can still edit them if needed.
+				Since you're logged in to your MyUSA account some of these fields may be filled in automatically. Those fields will by highlighted indicating they were filled in with MyUSA, but you can still edit them if needed.
 				<?php endif; ?>	
 			</p>
 			
@@ -143,7 +143,7 @@
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">2</strong>&nbsp;&nbsp;&nbsp;What is your date of birth? (Enter date in mm/dd/yyyy format.)</span><span class="ui-icon-question-help" id="cat_1_qh_1001"></span></span>
 
 				<?php if (!empty($user['date_of_birth'])):?>	
-				<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+				<div class="highlight-prefill">This field was pre-filled from your MyUSA Profile</div>
 				<?php endif;?>
 				</div>
 
@@ -161,7 +161,7 @@
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">3</strong>&nbsp;&nbsp;&nbsp;Where do you live?</span><span class="ui-icon-question-help" id="cat_1_qh_2014"></span></span>
 
 					<?php if (!empty($user['state'])):?>	
-					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+					<div class="highlight-prefill">This field was pre-filled from your MyUSA Profile</div>
 					<?php endif;?>
 				</div>
 				<div title="Question Help Text" id="cat_1_help_2014" class="ui-question-help-content" style="display: none;">
@@ -183,7 +183,7 @@
 				<div id="qid_1124" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">4</strong>&nbsp;&nbsp;&nbsp;In which U.S. State do you live?</span><span class="ui-icon-question-help" id="cat_1_qh_1124"></span></span>
 					<?php if (!empty($user['state'])):?>	
-					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+					<div class="highlight-prefill">This field was pre-filled from your MyUSA Profile</div>
 					<?php endif;?>					
 				</div>
 				<div title="Question Help Text" id="cat_1_help_1124" class="ui-question-help-content" style="display: none;">
@@ -419,7 +419,7 @@
 				<div id="qid_2021" class="ui-question-text">
 					<span style="float:left;line-height:25px;"><span style="float:left;"><strong style="float:left;line-height:25px;">9</strong>&nbsp;&nbsp;&nbsp;Are you currently married?</span><span class="ui-icon-question-help" id="cat_1_qh_2021"></span></span>
 					<?php if (!empty($user['marital_status']) && $user['marital_status'] !== 'domestic_partnership'):?>	
-					<div class="highlight-prefill">This field was pre-filled from your MyGov Profile</div>
+					<div class="highlight-prefill">This field was pre-filled from your MyUSA Profile</div>
 					<?php endif;?>					
 				</div>
 				<div title="Question Help Text" id="cat_1_help_2021" class="ui-question-help-content" style="display: none;">
