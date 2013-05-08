@@ -7,6 +7,8 @@ The is a copy of the front-end of benefits.gov for the purpose of demonstrating 
 2. Accessing the MyGov Account API for basic profile details about the user which can then be used to autofill matching form fields
 3. Saving items to the Task feature in the MyGov account using the API for Tasks
 
+An example of this can be seen at [https://apps.my.usa.gov/benefits.gov](https://apps.my.usa.gov/benefits.gov).
+
 Understanding the Code
 ======================
 This is a basic PHP app using the [CodeIgniter framework](http://www.codeigniter.com/). The app makes use of [Phil Sturgeon's OAuth2 Library](https://github.com/philsturgeon/codeigniter-oauth2)  with an added [provider file for MyGov](https://github.com/GSA-OCSIT/benefits-mockup/blob/master/application/libraries/Provider/Mygov.php). 
