@@ -60,9 +60,10 @@
 			</p>
 			
 			<p style="border : 1px solid #F3B94C; padding : .5em">
-				<img src="./assets/mygov-logo.png" alt="MyUSA Logo" style="display:block" />
+				<img src="./assets/mygov-logo.png" alt="MyUSA Logo" style="display:block; margin-left: 150px;" />
 				<?php if(empty($user)) : ?>
-				You can use your MyUSA account to help you fill out this form and keep track of your benefits afterward. If you already have a MyUSA account, just <a href="./login?origin=<?php echo current_url(); ?>">log in</a> to make Benefits.gov even better.
+				You can use your MyUSA account to help you fill out this form and keep track of your benefits afterward. If you already have a MyUSA account, just log in to make Benefits.gov even better.
+				<p style="font-size: 18px; text-align: center;"><a href="./login?origin=<?php echo current_url(); ?>">Log in with MyUSA</a></p>
 				<?php else: ?>
 				Since you're logged in to your MyUSA account some of these fields may be filled in automatically. Those fields will by highlighted indicating they were filled in with MyUSA, but you can still edit them if needed.
 				<?php endif; ?>	
