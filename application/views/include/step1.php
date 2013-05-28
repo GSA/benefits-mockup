@@ -59,11 +59,11 @@
 				<i>All of the questions in this section must be answered in order to obtain an initial list of benefit results and to move on to the next sections of the Benefit Finder. Providing additional information will further increase the accuracy of your results. When you are done with this section, click "Next." Please answer the questions as accurately as possible for the best results. After this section is complete, you may click the "View Benefit Results" tab at any time to see a listing of programs that you may be eligible to receive.</i>
 			</p>
 			
-			<p style="border : 1px solid #F3B94C; padding : .5em">
+			<p>
 				<img src="./assets/mygov-logo.png" alt="MyUSA Logo" style="display:block; margin-left: 150px;" />
 				<?php if(empty($user)) : ?>
 				You can use your MyUSA account to help you fill out this form and keep track of your benefits afterward. If you already have a MyUSA account, just log in to make Benefits.gov even better.
-				<p style="font-size: 18px; text-align: center;"><a href="./login?origin=<?php echo current_url(); ?>">Log in with MyUSA</a></p>
+				<div style="font-size: 18px; text-align: center;"><a href="./login?origin=<?php echo current_url(); ?>">Login with MyUSA</a></div>
 				<?php else: ?>
 				Since you're logged in to your MyUSA account some of these fields may be filled in automatically. Those fields will by highlighted indicating they were filled in with MyUSA, but you can still edit them if needed.
 				<?php endif; ?>	
